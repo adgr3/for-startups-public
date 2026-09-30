@@ -7,6 +7,7 @@
     "apps/web/astro.config.mjs",
     "apps/web/package-lock.json",
     "apps/web/package.json",
+    "apps/web/public/404.html",
     "apps/web/public/favicon.svg",
     "apps/web/public/robots.txt",
     "apps/web/src/components/OpportunityCard.astro",
@@ -24,7 +25,7 @@
     "deploy/public.gitignore",
     "schemas/opportunity.schema.json"
   ],
-  "file_count": 23,
+  "file_count": 24,
   "catalog": {
     "item_count": 34,
     "slugs": 34,
