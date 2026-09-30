@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import OpportunityCard from '../../components/OpportunityCard.astro';
-import { loadCatalog } from '../../lib/catalog.js';
+import { loadCatalog, isActive } from '../../lib/catalog.js';
 import {
   STATUS_LABELS, STATUS_HINTS, STATUS_CLASS, GEOGRAPHY_LABELS, BENEFIT_LABELS,
   OPPORTUNITY_TYPE_LABELS, APPLICANT_LABELS, LEGAL_FORM_LABELS,
@@ -17,6 +17,11 @@ export async function getStaticPaths() {
 }
 
 const { item } = Astro.props;
+// The detail page shares the site header, so it must carry the same catalog
+// stamp and active count as the index — otherwise the header states
+// "Aktualne możliwości: 0" and "Ostatnia aktualizacja danych: brak".
+const { items: allItems, meta } = loadCatalog();
+const activeCount = allItems.filter(isActive).length;
 const now = new Date();
 const lifecycle = item.lifecycle || {};
 const closesAt = lifecycle.closes_at ?? item.dates?.application_deadline_at ?? null;
@@ -45,7 +50,7 @@ const jsonLd = {
   validThrough: item.dates?.application_deadline_at || undefined,
 };
 ---
-<Base title={title} description={description} canonicalPath={`/opportunities/${item.slug}/`} meta={{}} jsonLd={jsonLd}>
+<Base title={title} description={description} canonicalPath={`/opportunities/${item.slug}/`} meta={meta} activeCount={activeCount} jsonLd={jsonLd}>
   <p class="back-link"><a href="/">← Wróć do katalogu</a></p>
   <h1>{item.title && item.title !== 'UNKNOWN' ? item.title : 'Program bez nazwy'}</h1>
 
