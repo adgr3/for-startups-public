@@ -1,0 +1,179 @@
+---
+import Base from '../../layouts/Base.astro';
+import OpportunityCard from '../../components/OpportunityCard.astro';
+import { loadCatalog } from '../../lib/catalog.js';
+import {
+  STATUS_LABELS, STATUS_HINTS, STATUS_CLASS, GEOGRAPHY_LABELS, BENEFIT_LABELS,
+  OPPORTUNITY_TYPE_LABELS, APPLICANT_LABELS, LEGAL_FORM_LABELS,
+  COMPANY_STAGE_LABELS, FUNDING_STAGE_LABELS, TIMESTAMP_LABELS, label,
+} from '../../lib/labels.js';
+import { formatDeadline, formatStamp, daysRemaining, startsInDays } from '../../lib/format.js';
+
+export async function getStaticPaths() {
+  const { items } = loadCatalog();
+  return items
+    .filter((item) => item.slug)
+    .map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const now = new Date();
+const lifecycle = item.lifecycle || {};
+const closesAt = lifecycle.closes_at ?? item.dates?.application_deadline_at ?? null;
+const opensAt = lifecycle.opens_at ?? item.dates?.application_open_at ?? null;
+const remaining = daysRemaining(closesAt, now);
+const startsIn = startsInDays(opensAt, now);
+const stamps = item.timestamps || {};
+const applicationUrl = typeof item.application_url === 'string' && /^https?:\/\//.test(item.application_url)
+  ? item.application_url : null;
+const officialUrl = typeof item.canonical_url === 'string' && /^https?:\/\//.test(item.canonical_url)
+  ? item.canonical_url : null;
+
+const title = `${item.title} — ${label(STATUS_LABELS, item.status)}`;
+const description = (item.summary_pl
+  || (item.benefits || []).map((b) => b.description).filter(Boolean)[0]
+  || 'Program dla startupów.').slice(0, 280);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'OpportunityProgram',
+  name: item.title,
+  description,
+  url: officialUrl || undefined,
+  provider: { '@type': 'Organization', name: item.provider?.name },
+  datePosted: item.dates?.application_open_at || undefined,
+  validThrough: item.dates?.application_deadline_at || undefined,
+};
+---
+<Base title={title} description={description} canonicalPath={`/opportunities/${item.slug}/`} meta={{}} jsonLd={jsonLd}>
+  <p class="back-link"><a href="/">← Wróć do katalogu</a></p>
+  <h1>{item.title && item.title !== 'UNKNOWN' ? item.title : 'Program bez nazwy'}</h1>
+
+  <div class="badges" style="margin-bottom:14px">
+    <span class={`badge ${STATUS_CLASS[item.status] || 'status-unknown'}`}>{label(STATUS_LABELS, item.status)}</span>
+    <span class="badge">{label(GEOGRAPHY_LABELS, item.geography?.scope || 'UNKNOWN')}</span>
+    {(item.opportunity_types || []).map((t) => <span class="badge">{label(OPPORTUNITY_TYPE_LABELS, t)}</span>)}
+  </div>
+
+  {(lifecycle.basis === 'PRIOR_CADENCE' || item.status === 'EXPECTED_RECURRENCE') && (
+    <div class="countdown expected" style="margin-bottom:14px">
+      Nadchodzący nabór jest <strong>spodziewany na podstawie wcześniejszych edycji</strong> — to nie jest
+      oficjalnie ogłoszony nabór. Nie podajemy terminu, którego źródło nie ogłosiło.
+    </div>
+  )}
+  {lifecycle.basis === 'AUTHORITATIVE_ANNOUNCEMENT' && (
+    <div class="countdown" style="margin-bottom:14px">Termin otwarcia ogłoszony przez oficjalne źródło.</div>
+  )}
+
+  {item.summary_pl
+    ? <p class="lede">{item.summary_pl}</p>
+    : <p class="lede">{description}</p>}
+
+  {remaining !== null && item.status !== 'CLOSED' && (
+    <p class="countdown" style="display:inline-block">Pozostało {remaining} dni na złożenie wniosku</p>
+  )}
+  {startsIn !== null && item.status !== 'OPEN' && (
+    <p class="countdown" style="display:inline-block">Nabór rusza za {startsIn} dni</p>
+  )}
+
+  <div class="card-actions" style="margin:18px 0 26px">
+    {applicationUrl && (
+      <a class="btn" href={applicationUrl} target="_blank" rel="noopener noreferrer">Aplikuj ↗</a>
+    )}
+    {officialUrl && (
+      <a class="btn btn-secondary" href={officialUrl} target="_blank" rel="noopener noreferrer">Oficjalne źródło ↗</a>
+    )}
+  </div>
+
+  <div class="detail-facts">
+    <dl>
+      <dt>Dostawca</dt>
+      <dd>{item.provider?.name && item.provider.name !== 'UNKNOWN' ? item.provider.name : 'nieznany'}</dd>
+
+      <dt>Zasięg geograficzny</dt>
+      <dd>{label(GEOGRAPHY_LABELS, item.geography?.scope || 'UNKNOWN')}</dd>
+
+      <dt>Status życia cyklu</dt>
+      <dd>{label(STATUS_LABELS, item.status)}{STATUS_HINTS[item.status] ? ` — ${STATUS_HINTS[item.status]}` : ''}</dd>
+
+      <dt>Start naboru</dt>
+      <dd>{opensAt ? formatDeadline(opensAt, lifecycle.opens_at_precision || 'DATE') : <span class="unknown">nieznany</span>}</dd>
+
+      <dt>Koniec naboru</dt>
+      <dd>{closesAt ? formatDeadline(closesAt, lifecycle.closes_at_precision || 'DATE') : <span class="unknown">nieznany</span>}</dd>
+
+      <dt>Korzyści</dt>
+      <dd>{(item.benefits || []).length
+        ? [...new Set(item.benefits.map((b) => label(BENEFIT_LABELS, b.benefit_type)))].join(', ')
+        : <span class="unknown">nieznane</span>}</dd>
+
+      <dt>Opis korzyści (źródło)</dt>
+      <dd>{(item.benefits || []).map((b) => b.description).filter(Boolean).join(' ') || <span class="unknown">nieznany</span>}</dd>
+
+      <dt>Dla kogo</dt>
+      <dd>{(item.eligibility?.applicant_types || []).length
+        ? item.eligibility.applicant_types.map((a) => label(APPLICANT_LABELS, a)).join(', ')
+        : <span class="unknown">nieznane</span>}</dd>
+
+      <dt>Forma prawna</dt>
+      <dd>{(item.eligibility?.legal_forms || []).length
+        ? item.eligibility.legal_forms.map((l) => label(LEGAL_FORM_LABELS, l)).join(', ')
+        : <span class="unknown">nieznana</span>}</dd>
+
+      <dt>Etap firmy</dt>
+      <dd>{(item.eligibility?.company_stages || []).length
+        ? item.eligibility.company_stages.map((s) => label(COMPANY_STAGE_LABELS, s)).join(', ')
+        : <span class="unknown">nieznany</span>}</dd>
+
+      <dt>Finansowanie</dt>
+      <dd>{(item.eligibility?.funding_stages || []).length
+        ? item.eligibility.funding_stages.map((f) => label(FUNDING_STAGE_LABELS, f)).join(', ')
+        : <span class="unknown">nieznane</span>}</dd>
+
+      <dt>Sektory</dt>
+      <dd>{(item.eligibility?.sectors || []).length
+        ? item.eligibility.sectors.join(', ')
+        : <span class="unknown">nieograniczone / nieznane</span>}</dd>
+
+      <dt>Wymagania</dt>
+      <dd>{(item.eligibility?.requirements_text || []).length
+        ? <ul>{item.eligibility.requirements_text.map((r) => <li>{r}</li>)}</ul>
+        : <span class="unknown">nieznane</span>}</dd>
+
+      <dt>Wyłączenia</dt>
+      <dd>{(item.eligibility?.exclusions_text || []).length
+        ? <ul>{item.eligibility.exclusions_text.map((r) => <li>{r}</li>)}</ul>
+        : <span class="unknown">nieznane</span>}</dd>
+
+      <dt>{label(TIMESTAMP_LABELS, 'discovered_at')}</dt>
+      <dd>{stamps.discovered_at ? formatStamp(stamps.discovered_at) : <span class="unknown">nieznane</span>}</dd>
+
+      <dt>{label(TIMESTAMP_LABELS, 'last_checked_at')}</dt>
+      <dd>{stamps.last_checked_at ? formatStamp(stamps.last_checked_at) : <span class="unknown">nieznane</span>}</dd>
+
+      <dt>{label(TIMESTAMP_LABELS, 'last_verified_at')}</dt>
+      <dd>{stamps.last_verified_at ? formatStamp(stamps.last_verified_at) : <span class="unknown">nieznane</span>}</dd>
+
+      <dt>Ostatnia zmiana rekordu</dt>
+      <dd>{stamps.last_changed_at ? formatStamp(stamps.last_changed_at) : <span class="unknown">nieznana</span>}</dd>
+
+      <dt>Pewność danych</dt>
+      <dd>{item.verification?.status} · {item.verification?.confidence}</dd>
+    </dl>
+  </div>
+
+  <div class="section-head"><h2>Źródła i dowody</h2></div>
+  <ul class="evidence-list">
+    {(item.evidence || []).map((e) => (
+      <li>
+        <a href={e.url} target="_blank" rel="noopener noreferrer">{e.url}</a>
+        <span class="stamp-note"> — {e.authority}{(e.supports || []).length ? ` · potwierdza: ${e.supports.join(', ')}` : ''}</span>
+      </li>
+    ))}
+  </ul>
+
+  <div class="section-head"><h2>Powiązane pozycje</h2></div>
+  <div class="card-list">
+    <OpportunityCard item={item} now={now} detail />
+  </div>
+</Base>

@@ -1,0 +1,43 @@
+{
+  "files": [
+    ".gitignore",
+    "PUBLIC_CATALOG.md",
+    "README.md",
+    "apps/web/README.md",
+    "apps/web/astro.config.mjs",
+    "apps/web/package-lock.json",
+    "apps/web/package.json",
+    "apps/web/public/favicon.svg",
+    "apps/web/public/robots.txt",
+    "apps/web/src/components/OpportunityCard.astro",
+    "apps/web/src/data/catalog.json",
+    "apps/web/src/data/meta.json",
+    "apps/web/src/layouts/Base.astro",
+    "apps/web/src/lib/catalog.js",
+    "apps/web/src/lib/format.js",
+    "apps/web/src/lib/labels.js",
+    "apps/web/src/pages/historia.astro",
+    "apps/web/src/pages/index.astro",
+    "apps/web/src/pages/opportunities/[slug].astro",
+    "apps/web/src/pages/sitemap.xml.ts",
+    "deploy/README.md",
+    "deploy/public.gitignore",
+    "schemas/opportunity.schema.json"
+  ],
+  "file_count": 23,
+  "catalog": {
+    "item_count": 34,
+    "slugs": 34,
+    "summary_pl": 34,
+    "status_counts": {
+      "OPEN": 17,
+      "ROLLING": 15,
+      "UNKNOWN": 2
+    }
+  },
+  "build": {
+    "install_exit": 0,
+    "build_exit": 0,
+    "pages": 36
+  }
+}

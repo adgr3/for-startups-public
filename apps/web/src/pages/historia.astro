@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import OpportunityCard from '../components/OpportunityCard.astro';
+import { loadCatalog, isActive } from '../lib/catalog.js';
+
+const { items, meta, loaded } = loadCatalog();
+const archived = items.filter((i) => !isActive(i));
+// UNKNOWN is NOT "closed". It gets its own labelled group so the archive page
+// never presents an unconfirmed status as a finished programme.
+const unconfirmed = archived.filter((i) => i.status === 'UNKNOWN');
+const inactive = archived.filter((i) => i.status !== 'UNKNOWN');
+const description = 'Archiwum możliwości: programy zamknięte lub wstrzymane oraz pozycje o niepotwierdzonym statusie. Żadna z tych pozycji nie jest prezentowana jako aktualnie otwarta.';
+---
+<Base title="Archiwum i statusy niepotwierdzone" description={description} canonicalPath="/historia/" meta={meta} activeCount={items.filter(isActive).length}>
+  <h1>Archiwum</h1>
+  <p class="lede">{description}</p>
+
+  {!loaded ? (
+    <div class="degraded">
+      <h2>Brak danych katalogu</h2>
+      <p>Nie udało się wczytać opublikowanego katalogu. Sprawdź stan systemu produkcyjnego.</p>
+    </div>
+  ) : archived.length === 0 ? (
+    <div class="empty">
+      <h2>Archiwum jest puste</h2>
+      <p>Brak pozycji nieaktywnych ani niepotwierdzonych. <a href="/">Wróć do aktualnych możliwości</a>.</p>
+    </div>
+  ) : (
+    <>
+      {unconfirmed.length > 0 && (
+        <section aria-labelledby="unconfirmed-heading">
+          <div class="section-head">
+            <h2 id="unconfirmed-heading">Status niepotwierdzony</h2>
+            <p>Źródło nie potwierdza aktualnego statusu. To nie jest informacja o zamknięciu naboru.</p>
+          </div>
+          <div class="grid">
+            {unconfirmed.map((item) => <OpportunityCard item={item} />)}
+          </div>
+        </section>
+      )}
+
+      {inactive.length > 0 && (
+        <section aria-labelledby="inactive-heading">
+          <div class="section-head">
+            <h2 id="inactive-heading">Zamknięte i wstrzymane</h2>
+            <p>Nie są otwarte. Pozostają widoczne dla przejrzystości i dla następnej rundy.</p>
+          </div>
+          <div class="grid">
+            {inactive.map((item) => <OpportunityCard item={item} />)}
+          </div>
+        </section>
+      )}
+    </>
+  )}
+</Base>

@@ -1,0 +1,11 @@
+{
+  "digest": "e4bf13a48ca166cee1c1deea59e8fe47bfa8383fb88172ac4b2e56b10cf61fc5",
+  "generated_at": "2026-09-30T15:51:22.803661+00:00",
+  "item_count": 34,
+  "status_counts": {
+    "OPEN": 17,
+    "ROLLING": 15,
+    "UNKNOWN": 2
+  },
+  "source": "prod-pipeline-catalog-current"
+}

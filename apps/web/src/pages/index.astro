@@ -1,0 +1,271 @@
+---
+import Base from '../layouts/Base.astro';
+import OpportunityCard from '../components/OpportunityCard.astro';
+import { loadCatalog, isActive, isUpcoming, supportedValues, SORTS } from '../lib/catalog.js';
+import { GEOGRAPHY_PLAIN, OPPORTUNITY_TYPE_LABELS, STATUS_LABELS, label } from '../lib/labels.js';
+
+const { items, meta, loaded } = loadCatalog();
+const now = new Date();
+const active = items.filter(isActive);
+const upcoming = active.filter(isUpcoming);
+const openNow = active.filter((i) => !isUpcoming(i));
+
+const geoOptions = supportedValues(active, 'geo');
+const typeOptions = supportedValues(active, 'type');
+const statusOptions = supportedValues(active, 'status');
+const entityOptions = supportedValues(active, 'entity');
+const fundingOptions = supportedValues(active, 'funding');
+
+const GEO_FILTER_LABELS = { pl: '🇵🇱 Polska', eu: '🇪🇺 Unia Europejska', global: '🌍 Global' };
+const TYPE_FILTER_LABELS = {
+  grant: 'grant', accelerator: 'akcelerator', credits: 'kredyty', pilot: 'pilotaż',
+};
+const ENTITY_FILTER_LABELS = { jdg: 'JDG', company: 'spółka' };
+const FUNDING_FILTER_LABELS = { bootstrap: 'bootstrap', funded: 'z finansowaniem' };
+
+const catalogLoaded = loaded;
+const description = 'Katalog aktualnych i nadchodzących możliwości dla polskich startupów: granty, konkursy, akceleratory, kredyty chmurowe i programy korporacyjne — z datami, terminami i oficjalnymi źródłami.';
+---
+<Base title="Aktualne i nadchodzące możliwości dla startupów" description={description} meta={meta} activeCount={active.length}>
+  <h1>Katalog możliwości dla startupów</h1>
+  <p class="lede">
+    Programy, granty, akceleratory i kredyty dostępne dla polskich startupów. Dane pochodzą
+    wyłącznie z autorytatywnych źródeł wskazanych przy każdej pozycji. Godziny podajemy tylko
+    wtedy, gdy podaje je źródło.
+  </p>
+
+  {!catalogLoaded && (
+    <div class="degraded">
+      <h2>Brak danych katalogu</h2>
+      <p>Nie udało się wczytać opublikowanego katalogu. Ostatni poprawny katalog pozostaje niedostępny.
+      Sprawdź stan systemu produkcyjnego.</p>
+    </div>
+  )}
+
+  {catalogLoaded && active.length === 0 && (
+    <div class="empty">
+      <h2>Brak aktualnych możliwości</h2>
+      <p>Żadne źródło nie zgłosiło aktualnie otwartej możliwości. {items.length > 0 && 'Pozycje zamknięte i o niepotwierdzonym statusie znajdziesz w archiwum.'}</p>
+    </div>
+  )}
+
+  {active.length > 0 && (
+    <>
+      <section class="controls" aria-label="Filtry katalogu">
+        <label class="search-field">Szukaj
+          <input id="q" type="search" placeholder="np. kredyty chmurowe, AI, dotacja" autocomplete="off" />
+        </label>
+        <label>Sortuj
+          <select id="sort">
+            {Object.entries(SORTS).map(([value, text]) => (
+              <option value={value} selected={value === 'recent'}>{text}</option>
+            ))}
+          </select>
+        </label>
+        <label>Status
+          <select id="status">
+            <option value="">Wszystkie</option>
+            {statusOptions.map((s) => <option value={s}>{label(STATUS_LABELS, s)}</option>)}
+          </select>
+        </label>
+        <label>Zasięg
+          <select id="scope">
+            <option value="">Wszystkie</option>
+            {geoOptions.map((s) => <option value={s}>{GEO_FILTER_LABELS[s] || s}</option>)}
+          </select>
+        </label>
+        <label>Rodzaj
+          <select id="type">
+            <option value="">Wszystkie</option>
+            {typeOptions.map((s) => <option value={s}>{TYPE_FILTER_LABELS[s] || label(OPPORTUNITY_TYPE_LABELS, s)}</option>)}
+          </select>
+        </label>
+        {entityOptions.length > 0 && (
+          <label>Forma
+            <select id="entity">
+              <option value="">Dowolna</option>
+              {entityOptions.map((s) => <option value={s}>{ENTITY_FILTER_LABELS[s] || s}</option>)}
+            </select>
+          </label>
+        )}
+        {fundingOptions.length > 0 && (
+          <label>Finansowanie
+            <select id="funding">
+              <option value="">Dowolne</option>
+              {fundingOptions.map((s) => <option value={s}>{FUNDING_FILTER_LABELS[s] || s}</option>)}
+            </select>
+          </label>
+        )}
+      </section>
+
+      <div class="filter-bar" role="group" aria-label="Szybkie filtry">
+        <span class="chip-label">Szybki wybór</span>
+        <button type="button" class="chip" data-preset="upcoming" aria-pressed="false">Nadchodzące nabory</button>
+        <button type="button" class="chip" data-preset="open" aria-pressed="false">Tylko otwarte</button>
+        <button type="button" class="chip" data-preset="pl" aria-pressed="false">Polska</button>
+        <button type="button" class="chip" data-preset="credits" aria-pressed="false">Kredyty</button>
+        <button type="button" class="chip" data-preset="reset" aria-pressed="false">Wyczyść filtry</button>
+      </div>
+
+      <p class="results-meta" id="results-meta">Wyświetlono {active.length} z {active.length} możliwości.</p>
+
+      <section id="nadchodzace" aria-labelledby="nadchodzace-h" data-section="upcoming" class={upcoming.length ? '' : 'hidden'}>
+        <div class="section-head">
+          <h2 id="nadchodzace-h">Nadchodzące nabory</h2>
+          <p>Potwierdzone przez źródło oraz spodziewane na podstawie wcześniejszych edycji.</p>
+        </div>
+        <div class="grid" id="grid-upcoming">
+          {upcoming.map((item) => <OpportunityCard item={item} now={now} />)}
+        </div>
+      </section>
+
+      <section aria-labelledby="aktualne-h" data-section="open">
+        <div class="section-head">
+          <h2 id="aktualne-h">Aktualne możliwości</h2>
+          <p>Nabór otwarty lub ciągły.</p>
+        </div>
+        <div class="grid" id="grid-open">
+          {openNow.map((item) => <OpportunityCard item={item} now={now} />)}
+        </div>
+      </section>
+
+      <p class="empty hidden" id="no-results">Brak wyników dla wybranych filtrów.</p>
+
+      <script is:inline>
+        (function () {
+          const q = document.getElementById('q');
+          const sort = document.getElementById('sort');
+          const status = document.getElementById('status');
+          const scope = document.getElementById('scope');
+          const type = document.getElementById('type');
+          const entity = document.getElementById('entity');
+          const funding = document.getElementById('funding');
+          const meta = document.getElementById('results-meta');
+          const noResults = document.getElementById('no-results');
+          const sections = Array.from(document.querySelectorAll('[data-section]'));
+          const cards = Array.from(document.querySelectorAll('.grid .card'));
+          const total = cards.length;
+
+          function matches(card, term) {
+            if (term && !(card.dataset.search || '').includes(term)) return false;
+            if (status.value && status.value !== 'UPCOMING') {
+              if (card.dataset.status !== status.value) return false;
+            }
+            if (status.value === 'UPCOMING') {
+              const s = card.dataset.status;
+              if (s !== 'UPCOMING_CONFIRMED' && s !== 'EXPECTED_RECURRENCE' && s !== 'UPCOMING') return false;
+            }
+            if (scope.value) {
+              const allowed = scope.value === 'pl' ? ['POLAND']
+                : scope.value === 'eu' ? ['EU', 'EUROPE']
+                : ['GLOBAL'];
+              if (!allowed.includes(card.dataset.scope)) return false;
+            }
+            if (type.value) {
+              const types = (card.dataset.types || '').split(',');
+              const groups = {
+                grant: ['GRANT'],
+                accelerator: ['ACCELERATOR', 'INCUBATOR'],
+                credits: ['CLOUD_CREDITS', 'AI_API_CREDITS', 'SAAS_CREDITS', 'COMPUTE_CREDITS', 'DISCOUNT'],
+                pilot: ['CORPORATE_PILOT', 'CORPORATE_CHALLENGE'],
+              };
+              if (!(groups[type.value] || []).some((t) => types.includes(t))) return false;
+            }
+            if (entity.value) {
+              const forms = (card.dataset.legalForms || '').split(',').filter(Boolean);
+              if (entity.value === 'jdg' && !forms.includes('JDG')) return false;
+              if (entity.value === 'company' && !forms.some((f) => ['SP_Z_OO', 'PSA', 'SA', 'OTHER_COMPANY'].includes(f))) return false;
+            }
+            if (funding.value) {
+              const stages = (card.dataset.funding || '').split(',').filter(Boolean);
+              const external = card.dataset.externalFunding;
+              const funded = ['PRE_SEED', 'SEED', 'SERIES_A', 'SERIES_B', 'SERIES_C_PLUS'];
+              if (funding.value === 'bootstrap' && !(stages.includes('BOOTSTRAPPED') || external === 'NO')) return false;
+              if (funding.value === 'funded' && !(external === 'YES' || stages.some((s) => funded.includes(s)))) return false;
+            }
+            return true;
+          }
+
+          function sortValue(card, key) {
+            if (key === 'recent' || key === 'oldest') return card.dataset.discovered || '';
+            if (key === 'deadline_asc' || key === 'deadline_desc') return card.dataset.closes || '';
+            if (key === 'opens_asc') return card.dataset.opens || '';
+            return card.dataset.discovered || '';
+          }
+
+          function apply() {
+            const term = (q.value || '').trim().toLowerCase();
+            const key = sort.value;
+            const descending = key === 'recent' || key === 'deadline_desc';
+            let visible = 0;
+
+            for (const section of sections) {
+              const grid = section.querySelector('.grid');
+              if (!grid) continue;
+              const own = Array.from(grid.querySelectorAll('.card'));
+              const matched = own.filter((card) => matches(card, term));
+              matched.sort((a, b) => {
+                const av = sortValue(a, key);
+                const bv = sortValue(b, key);
+                if (!av && !bv) return 0;
+                if (!av) return 1;
+                if (!bv) return -1;
+                if (av === bv) return 0;
+                const cmp = av < bv ? -1 : 1;
+                return descending ? -cmp : cmp;
+              });
+              matched.forEach((card) => grid.appendChild(card));
+              own.forEach((card) => card.classList.toggle('hidden', !matched.includes(card)));
+              const isEmpty = matched.length === 0;
+              section.classList.toggle('hidden', isEmpty);
+              visible += matched.length;
+            }
+
+            meta.textContent = 'Wyświetlono ' + visible + ' z ' + total + ' możliwości.';
+            noResults.classList.toggle('hidden', visible !== 0);
+          }
+
+          const PRESETS = {
+            upcoming: () => { status.value = 'UPCOMING'; },
+            open: () => { status.value = 'OPEN'; },
+            pl: () => { scope.value = 'pl'; },
+            credits: () => { type.value = 'credits'; },
+            reset: () => {
+              q.value = ''; status.value = ''; scope.value = '';
+              type.value = ''; if (entity) entity.value = '';
+              if (funding) funding.value = ''; sort.value = 'recent';
+            },
+          };
+
+          for (const el of [q, sort, status, scope, type, entity, funding].filter(Boolean)) {
+            el.addEventListener('input', apply);
+            el.addEventListener('change', apply);
+          }
+          for (const chip of document.querySelectorAll('[data-preset]')) {
+            chip.addEventListener('click', () => {
+              const run = PRESETS[chip.dataset.preset];
+              if (run) run();
+              syncChips();
+              apply();
+            });
+          }
+          function syncChips() {
+            for (const chip of document.querySelectorAll('[data-preset]')) {
+              const p = chip.dataset.preset;
+              let on = false;
+              if (p === 'upcoming') on = status.value === 'UPCOMING';
+              if (p === 'open') on = status.value === 'OPEN';
+              if (p === 'pl') on = scope.value === 'pl';
+              if (p === 'credits') on = type.value === 'credits';
+              if (p === 'reset') on = !(q.value || status.value || scope.value || type.value);
+              chip.setAttribute('aria-pressed', on ? 'true' : 'false');
+            }
+          }
+
+          apply();
+          syncChips();
+        })();
+      </script>
+    </>
+  )}
+</Base>

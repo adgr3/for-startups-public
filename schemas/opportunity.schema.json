@@ -1,0 +1,445 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://for-startups.local/schemas/opportunity.schema.json",
+  "title": "For Startups Canonical Opportunity",
+  "type": "object",
+  "required": [
+    "opportunity_id",
+    "title",
+    "provider",
+    "canonical_url",
+    "opportunity_types",
+    "status",
+    "geography",
+    "benefits",
+    "eligibility",
+    "dates",
+    "evidence",
+    "verification"
+  ],
+  "properties": {
+    "opportunity_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "provider": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {"type": "string"},
+        "provider_type": {
+          "enum": [
+            "PUBLIC_INSTITUTION",
+            "CORPORATION",
+            "ACCELERATOR",
+            "FOUNDATION",
+            "VC",
+            "ECOSYSTEM_ORG",
+            "OTHER",
+            "UNKNOWN"
+          ]
+        }
+      }
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "application_url": {
+      "type": ["string", "null"],
+      "description": "Direct application/access path when the source states one; null when UNKNOWN."
+    },
+    "opportunity_types": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "GRANT",
+          "COMPETITION",
+          "ACCELERATOR",
+          "INCUBATOR",
+          "CLOUD_CREDITS",
+          "AI_API_CREDITS",
+          "SAAS_CREDITS",
+          "COMPUTE_CREDITS",
+          "DISCOUNT",
+          "HARDWARE_BENEFIT",
+          "CORPORATE_PILOT",
+          "CORPORATE_CHALLENGE",
+          "EXPORT_PROGRAM",
+          "MARKET_ACCESS",
+          "INVESTOR_ACCESS",
+          "MENTORING",
+          "TRAINING",
+          "OTHER"
+        ]
+      }
+    },
+    "status": {
+      "description": "Base lifecycle. UPCOMING is the raw upstream signal; the public product refines it into UPCOMING_CONFIRMED (authoritative source announces an opening) or EXPECTED_RECURRENCE (inferred from prior cadence, never presented as announced) via the lifecycle block.",
+      "enum": [
+        "UPCOMING",
+        "UPCOMING_CONFIRMED",
+        "EXPECTED_RECURRENCE",
+        "OPEN",
+        "ROLLING",
+        "CLOSED",
+        "PAUSED",
+        "UNKNOWN"
+      ]
+    },
+    "summary_pl": {
+      "type": ["string", "null"],
+      "description": "Polish public summary. Translated/summarized from the recorded source facts only: it never introduces eligibility, amounts, dates or benefits that the record does not already assert. null when no safe Polish summary exists yet.",
+      "minLength": 1
+    },
+    "summary_pl_source_hash": {
+      "type": ["string", "null"],
+      "description": "Content hash of the source facts the Polish summary was produced from. Regeneration happens only when this hash changes."
+    },
+    "slug": {
+      "type": ["string", "null"],
+      "description": "Stable, URL-safe public identifier derived from the canonical identity. null only when no stable identity exists."
+    },
+    "lifecycle": {
+      "type": "object",
+      "description": "Public lifecycle refinement: distinguishes an authoritatively announced opening from a cadence-based expectation, and records date precision so no time is ever invented.",
+      "required": ["status", "basis"],
+      "properties": {
+        "status": {
+          "enum": [
+            "UPCOMING_CONFIRMED",
+            "EXPECTED_RECURRENCE",
+            "OPEN",
+            "ROLLING",
+            "CLOSED",
+            "PAUSED",
+            "UNKNOWN"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "AUTHORITATIVE_ANNOUNCEMENT",
+            "PRIOR_CADENCE",
+            "AUTHORITATIVE_PAGE",
+            "NONE"
+          ],
+          "description": "AUTHORITATIVE_ANNOUNCEMENT = an official source announces the opening. PRIOR_CADENCE = inferred from previous editions, never an official announcement. AUTHORITATIVE_PAGE = open/rolling/closed as stated by the source. NONE = no basis."
+        },
+        "announced": {
+          "type": "boolean",
+          "description": "true only when an authoritative source announced the upcoming opening."
+        },
+        "opens_at": {"type": ["string", "null"]},
+        "opens_at_precision": {"enum": ["DATE", "DATETIME", "NONE"]},
+        "closes_at": {"type": ["string", "null"]},
+        "closes_at_precision": {"enum": ["DATE", "DATETIME", "NONE"]}
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "description": "Distinct record timestamps. discovered_at is when the record was first seen, last_checked_at when the source was last polled, last_verified_at when a verification act ran. None of them is an application date.",
+      "properties": {
+        "discovered_at": {"type": ["string", "null"]},
+        "last_checked_at": {"type": ["string", "null"]},
+        "last_verified_at": {"type": ["string", "null"]},
+        "opens_at": {"type": ["string", "null"]},
+        "closes_at": {"type": ["string", "null"]}
+      }
+    },
+    "geography": {
+      "type": "object",
+      "required": ["scope"],
+      "properties": {
+        "scope": {
+          "enum": [
+            "POLAND",
+            "EU",
+            "EUROPE",
+            "GLOBAL",
+            "COUNTRY_SPECIFIC",
+            "REGIONAL",
+            "UNKNOWN"
+          ]
+        },
+        "eligible_countries": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "excluded_countries": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "target_markets": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "benefits": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["benefit_type"],
+        "properties": {
+          "benefit_type": {
+            "enum": [
+              "CASH_GRANT",
+              "CASH_PRIZE",
+              "CLOUD_CREDITS",
+              "AI_API_CREDITS",
+              "SAAS_CREDITS",
+              "COMPUTE",
+              "DISCOUNT",
+              "HARDWARE",
+              "MENTORING",
+              "TRAINING",
+              "CUSTOMER_ACCESS",
+              "PILOT",
+              "INVESTOR_ACCESS",
+              "MARKET_ACCESS",
+              "PROMOTION",
+              "OTHER"
+            ]
+          },
+          "amount_min": {"type": ["number", "null"]},
+          "amount_max": {"type": ["number", "null"]},
+          "currency": {"type": ["string", "null"]},
+          "description": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "eligibility": {
+      "type": "object",
+      "required": [
+        "applicant_types",
+        "end_beneficiary_types",
+        "legal_forms",
+        "company_stages",
+        "funding_stages"
+      ],
+      "properties": {
+        "applicant_types": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "FOUNDER",
+              "TEAM",
+              "STARTUP",
+              "COMPANY",
+              "SME",
+              "ACCELERATOR",
+              "OPERATOR",
+              "INVESTOR",
+              "OTHER",
+              "UNKNOWN"
+            ]
+          }
+        },
+        "end_beneficiary_types": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "legal_forms": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "INDIVIDUAL",
+              "PRE_COMPANY_TEAM",
+              "JDG",
+              "SP_Z_OO",
+              "PSA",
+              "SA",
+              "OTHER_COMPANY",
+              "ANY_BUSINESS",
+              "UNKNOWN"
+            ]
+          }
+        },
+        "company_stages": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "IDEA",
+              "PROTOTYPE",
+              "POC",
+              "MVP",
+              "PRE_REVENUE",
+              "FIRST_REVENUE",
+              "GROWTH",
+              "SCALEUP",
+              "UNKNOWN"
+            ]
+          }
+        },
+        "funding_stages": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "BOOTSTRAPPED",
+              "PRE_SEED",
+              "SEED",
+              "SERIES_A",
+              "SERIES_B",
+              "SERIES_C_PLUS",
+              "ANY",
+              "UNKNOWN"
+            ]
+          }
+        },
+        "company_age_min_months": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "company_age_max_months": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "external_funding_required": {
+          "enum": ["YES", "NO", "UNKNOWN", "NOT_APPLICABLE"]
+        },
+        "mvp_required": {
+          "enum": ["YES", "NO", "UNKNOWN", "NOT_APPLICABLE"]
+        },
+        "revenue_required": {
+          "enum": ["YES", "NO", "UNKNOWN", "NOT_APPLICABLE"]
+        },
+        "for_profit_required": {
+          "enum": ["YES", "NO", "UNKNOWN", "NOT_APPLICABLE"]
+        },
+        "sectors": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "requirements_text": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "exclusions_text": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "economics": {
+      "type": "object",
+      "properties": {
+        "application_fee": {
+          "enum": ["FREE", "PAID", "UNKNOWN", "NOT_APPLICABLE"]
+        },
+        "equity_required": {
+          "enum": ["YES", "NO", "UNKNOWN", "NOT_APPLICABLE"]
+        },
+        "own_contribution_required": {
+          "enum": ["YES", "NO", "UNKNOWN", "NOT_APPLICABLE"]
+        }
+      }
+    },
+    "dates": {
+      "type": "object",
+      "properties": {
+        "announced_at": {"type": ["string", "null"]},
+        "application_open_at": {"type": ["string", "null"]},
+        "application_deadline_at": {"type": ["string", "null"]},
+        "programme_start_at": {"type": ["string", "null"]},
+        "programme_end_at": {"type": ["string", "null"]}
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url", "authority"],
+        "properties": {
+          "url": {"type": "string"},
+          "authority": {
+            "enum": [
+              "PRIMARY",
+              "OFFICIAL_OPERATOR",
+              "OFFICIAL_PUBLIC",
+              "DISCOVERY_ONLY"
+            ]
+          },
+          "supports": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status"],
+      "description": "status/confidence describe evidence coverage, not a completed verification act. last_verified_at is only set when a real verification occurred.",
+      "properties": {
+        "status": {
+          "enum": [
+            "VERIFIED",
+            "PARTIALLY_VERIFIED",
+            "REVIEW_REQUIRED",
+            "UNVERIFIED"
+          ]
+        },
+        "confidence": {
+          "enum": ["HIGH", "MEDIUM", "LOW", "UNKNOWN"]
+        },
+        "basis": {
+          "enum": ["EVIDENCE_COVERAGE", "VERIFICATION_ACT"],
+          "description": "EVIDENCE_COVERAGE = derived from page-backed evidence; VERIFICATION_ACT = a real verification was performed."
+        },
+        "last_checked_at": {"type": ["string", "null"]},
+        "last_verified_at": {"type": ["string", "null"]}
+      }
+    },
+    "projection": {
+      "type": "object",
+      "description": "Governed projection envelope: internal provenance, identity and evidence-resolution metadata. It is not a canonical record. The defined properties are the contract; additional envelope keys from older projectors are tolerated so the schema does not retroactively invalidate an already-released catalog.",
+      "required": ["projector_version", "canonical", "unknown_fields"],
+      "properties": {
+        "projector_version": {"type": "string"},
+        "canonical": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["canonical_id", "version", "status"],
+          "properties": {
+            "canonical_id": {"type": "string"},
+            "identity_key": {"type": ["string", "null"]},
+            "version": {"type": "integer", "minimum": 1},
+            "status": {"type": "string"},
+            "created_at": {"type": ["string", "null"]},
+            "updated_at": {"type": ["string", "null"]},
+            "closed_at": {"type": ["string", "null"]},
+            "promoter_version": {"type": ["string", "null"]}
+          }
+        },
+        "aliases": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "urls": {"type": "array", "items": {"type": "string"}},
+            "provider_titles": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "unknown_fields": {"type": "array", "items": {"type": "string"}},
+        "canonical_unknown_fields": {"type": "array", "items": {"type": "string"}},
+        "history_versions": {"type": "array", "items": {"type": "integer"}},
+        "evidence_urls": {"type": "array", "items": {"type": "string"}},
+        "config_references": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Provenance references into our own registry (configuration, not evidence about the world)."
+        },
+        "field_provenance": {"type": "object"},
+        "provenance": {"type": "array"},
+        "source_kind": {"type": "string"}
+      }
+    }
+  }
+}

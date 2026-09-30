@@ -1,0 +1,179 @@
+---
+import {
+  STATUS_LABELS, STATUS_HINTS, STATUS_CLASS, GEOGRAPHY_LABELS, BENEFIT_LABELS,
+  OPPORTUNITY_TYPE_LABELS, APPLICANT_LABELS, LEGAL_FORM_LABELS,
+  COMPANY_STAGE_LABELS, FUNDING_STAGE_LABELS, TIMESTAMP_LABELS, label,
+} from '../lib/labels.js';
+import { isRealSource, unknownSet } from '../lib/catalog.js';
+import { formatDeadline, formatStamp, daysRemaining, startsInDays } from '../lib/format.js';
+
+export interface Props { item: any; now?: Date; detail?: boolean; }
+const { item, now = new Date(), detail = false } = Astro.props;
+const unknown = unknownSet(item);
+const real = isRealSource(item);
+
+const benefitTypesAll = [...new Set((item.benefits || [])
+  .map((b: any) => b.benefit_type)
+  .filter((v: string) => v))];
+const benefitTypes = benefitTypesAll.filter((v: string) => v !== 'OTHER');
+const displayBenefits = benefitTypes.length ? benefitTypes : benefitTypesAll;
+const benefitDescriptions = [...new Set((item.benefits || [])
+  .map((b: any) => b.description)
+  .filter((v: any) => typeof v === 'string' && v.length > 0))];
+
+const lifecycle = item.lifecycle || {};
+const closesAt = lifecycle.closes_at ?? item.dates?.application_deadline_at ?? null;
+const closesPrecision = lifecycle.closes_at_precision ?? 'DATE';
+const opensAt = lifecycle.opens_at ?? item.dates?.application_open_at ?? null;
+const opensPrecision = lifecycle.opens_at_precision ?? 'DATE';
+
+const geography = item.geography?.scope ?? 'UNKNOWN';
+const applicants = item.eligibility?.applicant_types || [];
+const legalForms = item.eligibility?.legal_forms || [];
+const stages = item.eligibility?.company_stages || [];
+const fundingStages = item.eligibility?.funding_stages || [];
+const requirements = item.eligibility?.requirements_text || [];
+const exclusions = item.eligibility?.exclusions_text || [];
+
+const stamps = item.timestamps || {};
+const lastChecked = stamps.last_checked_at || item.verification?.last_checked_at || null;
+const lastVerified = stamps.last_verified_at || item.verification?.last_verified_at || null;
+const discoveredAt = stamps.discovered_at || item.projection?.canonical?.created_at || null;
+
+const applicationUrl = typeof item.application_url === 'string' && /^https?:\/\//.test(item.application_url)
+  ? item.application_url
+  : null;
+
+const remaining = daysRemaining(closesAt, now);
+const startsIn = startsInDays(opensAt, now);
+const isUpcomingConfirmed = item.status === 'UPCOMING_CONFIRMED';
+const isExpectedRecurrence = item.status === 'EXPECTED_RECURRENCE';
+
+const searchText = [
+  item.title, item.summary_pl, item.provider?.name,
+  ...displayBenefits.map((b: string) => label(BENEFIT_LABELS, b)),
+  ...(item.opportunity_types || []).map((t: string) => label(OPPORTUNITY_TYPE_LABELS, t)),
+  ...(item.eligibility?.sectors || []),
+  ...requirements, ...benefitDescriptions,
+  label(GEOGRAPHY_LABELS, geography),
+].filter(Boolean).join(' ').toLowerCase();
+
+const detailHref = item.slug ? `/opportunities/${item.slug}/` : null;
+---
+<article
+  class="card"
+  data-status={item.status}
+  data-scope={geography}
+  data-provider={item.provider?.name || ''}
+  data-types={(item.opportunity_types || []).join(',')}
+  data-legal-forms={legalForms.join(',')}
+  data-funding={fundingStages.join(',')}
+  data-external-funding={item.eligibility?.external_funding_required || 'UNKNOWN'}
+  data-discovered={discoveredAt || ''}
+  data-opens={opensAt || ''}
+  data-closes={closesAt || ''}
+  data-search={searchText}
+>
+  <div class="badges">
+    <span class={`badge ${STATUS_CLASS[item.status] || 'status-unknown'}`}>{label(STATUS_LABELS, item.status)}</span>
+    <span class="badge" title="Zasięg geograficzny wynikający z kwalifikowalności">{label(GEOGRAPHY_LABELS, geography)}</span>
+    {(item.opportunity_types || []).slice(0, 3).map((type: string) => (
+      <span class="badge">{label(OPPORTUNITY_TYPE_LABELS, type)}</span>
+    ))}
+  </div>
+
+  {(STATUS_HINTS[item.status] || isExpectedRecurrence) && (
+    <p class="badge-hint">{STATUS_HINTS[item.status] || 'Na podstawie wcześniejszych edycji — nie jest oficjalnie ogłoszonym naborem.'}</p>
+  )}
+
+  <h2>
+    {detail || !detailHref
+      ? (item.title && item.title !== 'UNKNOWN' ? item.title : 'Program bez nazwy')
+      : <a href={detailHref}>{item.title && item.title !== 'UNKNOWN' ? item.title : 'Program bez nazwy'}</a>}
+  </h2>
+  <p class="provider">{item.provider?.name && item.provider.name !== 'UNKNOWN' ? item.provider.name : 'Dostawca nieznany'}</p>
+
+  {item.summary_pl
+    ? <p class="summary-pl">{item.summary_pl}</p>
+    : benefitDescriptions.length > 0 && <p class="summary-pl">{benefitDescriptions[0]}</p>}
+
+  {(isUpcomingConfirmed || isExpectedRecurrence) && startsIn !== null && (
+    <p class={`countdown ${isExpectedRecurrence ? 'expected' : ''}`}>
+      {isExpectedRecurrence
+        ? `Spodziewany nabór — historycznie za ${startsIn} dni (nieoficjalne)`
+        : `Nabór rusza za ${startsIn} ${startsIn === 1 ? 'dzień' : startsIn < 5 ? 'dni' : 'dni'}`}
+    </p>
+  )}
+  {!isExpectedRecurrence && remaining !== null && item.status !== 'CLOSED' && (
+    <p class="countdown">Pozostało {remaining} {remaining === 1 ? 'dzień' : remaining < 5 ? 'dni' : 'dni'} na złożenie wniosku</p>
+  )}
+  {isExpectedRecurrence && startsIn === null && (
+    <p class="countdown expected">Termin otwarcia nieznany — na podstawie wcześniejszych edycji</p>
+  )}
+
+  <dl class="facts">
+    <dt>Start naboru</dt>
+    <dd>{opensAt
+      ? <span>{formatDeadline(opensAt, opensPrecision)}</span>
+      : (item.status === 'ROLLING' ? <span>ciągły</span> : <span class="unknown">nieznany</span>)}</dd>
+
+    <dt>Koniec naboru</dt>
+    <dd>{closesAt
+      ? <span>{formatDeadline(closesAt, closesPrecision)}</span>
+      : <span class="unknown">nieznany</span>}</dd>
+
+    <dt>Korzyści</dt>
+    <dd>{displayBenefits.length ? displayBenefits.map((b: string) => label(BENEFIT_LABELS, b)).join(', ') : <span class="unknown">nieznane</span>}</dd>
+
+    <dt>Dla kogo</dt>
+    <dd>{applicants.length ? applicants.map((a: string) => label(APPLICANT_LABELS, a)).join(', ') : <span class="unknown">nieznane</span>}</dd>
+
+    <dt>Forma prawna</dt>
+    <dd>{legalForms.length ? legalForms.map((l: string) => label(LEGAL_FORM_LABELS, l)).join(', ') : <span class="unknown">nieznana</span>}</dd>
+
+    <dt>Finansowanie</dt>
+    <dd>{fundingStages.length ? fundingStages.map((f: string) => label(FUNDING_STAGE_LABELS, f)).join(', ') : <span class="unknown">nieznane</span>}</dd>
+
+    <dt>Etap</dt>
+    <dd>{stages.length ? stages.map((s: string) => label(COMPANY_STAGE_LABELS, s)).join(', ') : <span class="unknown">nieznany</span>}</dd>
+  </dl>
+
+  {requirements.length > 0 && (
+    <details>
+      <summary>Kryteria i wymagania</summary>
+      <ul>{requirements.map((r: string) => <li>{r}</li>)}</ul>
+      {exclusions.length > 0 && (
+        <>
+          <summary>Wyłączenia</summary>
+          <ul>{exclusions.map((r: string) => <li>{r}</li>)}</ul>
+        </>
+      )}
+    </details>
+  )}
+
+  <div class="card-actions">
+    {applicationUrl ? (
+      <a class="btn" href={applicationUrl} target="_blank" rel="noopener noreferrer">Aplikuj ↗</a>
+    ) : real ? (
+      <a class="btn" href={item.canonical_url} target="_blank" rel="noopener noreferrer">Oficjalne źródło ↗</a>
+    ) : (
+      <span class="unknown">Brak potwierdzonego linku źródłowego</span>
+    )}
+    {applicationUrl && real && (
+      <a class="btn btn-secondary" href={item.canonical_url} target="_blank" rel="noopener noreferrer">Źródło ↗</a>
+    )}
+    {detailHref && !detail && (
+      <a class="btn btn-secondary" href={detailHref}>Szczegóły →</a>
+    )}
+    <span class="freshness">
+      {lastVerified
+        ? `Ostatnia weryfikacja: ${formatStamp(lastVerified)}`
+        : lastChecked
+          ? `Ostatnie sprawdzenie źródła: ${formatStamp(lastChecked)}`
+          : discoveredAt
+            ? `Dodano: ${formatStamp(discoveredAt)}`
+            : 'Brak daty sprawdzenia'}
+      {unknown.has('canonical_url') ? ' · źródło nieustalone' : ''}
+    </span>
+  </div>
+</article>
