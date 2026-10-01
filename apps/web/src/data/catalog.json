@@ -326,8 +326,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -652,8 +652,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -952,8 +952,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -1265,8 +1265,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -1584,8 +1584,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -1966,8 +1966,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -2273,8 +2273,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -2578,8 +2578,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -3009,8 +3009,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -3595,8 +3595,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -3923,8 +3923,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -4168,8 +4168,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -4660,8 +4660,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -5084,8 +5084,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -5546,8 +5546,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -5564,7 +5564,7 @@
       "DISCOUNT",
       "SAAS_CREDITS"
     ],
-    "status": "ROLLING",
+    "status": "OPEN",
     "geography": {
       "scope": "GLOBAL",
       "eligible_countries": [],
@@ -5577,7 +5577,7 @@
         "amount_min": 10000.0,
         "amount_max": 10000.0,
         "currency": "USD",
-        "description": "New Algolia customers receive $10,000 in Algolia credits valid for 12 months, with world-class support and partner deals, early feature access and a founder community."
+        "description": "Approved startups receive $10,000 in Algolia credits valid for 12 months, plus partner deals/credits, early access to new Algolia features, world class support and a founder community."
       }
     ],
     "eligibility": {
@@ -5602,7 +5602,8 @@
       ],
       "exclusions_text": [
         "No, this program is only for new and free users. If you are already a paying customer of Algolia, you are not eligible to apply for this program.",
-        "No, if you have used any other coupon code in the past, you will not be eligible for the Algolia Startup Program."
+        "No, if you have used any other coupon code in the past, you will not be eligible for the Algolia Startup Program.",
+        "No, these credits are non-transferable."
       ]
     },
     "economics": {
@@ -5644,10 +5645,10 @@
       "canonical": {
         "canonical_id": "opp-43938ad15ebdf90607e2",
         "identity_key": "url:https://www.algolia.com/industries/startups",
-        "version": 1,
-        "status": "ROLLING",
+        "version": 2,
+        "status": "OPEN",
         "created_at": "2026-09-30T12:41:39.415722+00:00",
-        "updated_at": "2026-09-30T12:41:39.415722+00:00",
+        "updated_at": "2026-10-01T17:54:13.341785+00:00",
         "closed_at": null,
         "promoter_version": "canonical-promoter-v0.1"
       },
@@ -5678,7 +5679,8 @@
         "sector"
       ],
       "history_versions": [
-        1
+        1,
+        2
       ],
       "evidence_urls": [
         "https://www.algolia.com/industries/startups"
@@ -5699,6 +5701,23 @@
               {
                 "reference": "snapshot.current.window[1]",
                 "quote": "What it includes $10,000 in Algolia Credits ( See Terms ) Valid for 12 months World class support"
+              }
+            ]
+          },
+          {
+            "candidate_id": "candidate-911728182a2d4dd6dec9",
+            "decision_id": "decision-1bd3983bbbd9b5923b2e",
+            "source_id": "algolia_startups",
+            "version": 2,
+            "applied_at": "2026-10-01T17:54:13.341785+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.current.window[1]",
+                "quote": "$10,000 in Algolia Credits ( See Terms ) Valid for 12 months World class support"
+              },
+              {
+                "reference": "snapshot.current.window[5]",
+                "quote": "If you get approved, you get $10,000 in Algolia credit that you can use in the first 12 months of getting approved."
               }
             ]
           }
@@ -5766,6 +5785,31 @@
                 "quote": "No, if you have used any other coupon code in the past, you will not be eligible for the Algolia Startup Program."
               }
             ]
+          },
+          {
+            "candidate_id": "candidate-911728182a2d4dd6dec9",
+            "decision_id": "decision-1bd3983bbbd9b5923b2e",
+            "source_id": "algolia_startups",
+            "version": 2,
+            "applied_at": "2026-10-01T17:54:13.341785+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.current.window[1]",
+                "quote": "Eligibility criteria Less than 7 years old Less than $15M in total funding raised For new Algolia customers only"
+              },
+              {
+                "reference": "snapshot.current.window[5]",
+                "quote": "No, this program is only for new and free users. If you are already a paying customer of Algolia, you are not eligible to apply for this program."
+              },
+              {
+                "reference": "snapshot.current.window[5]",
+                "quote": "No, if you have used any other coupon code in the past, you will not be eligible for the Algolia Startup Program."
+              },
+              {
+                "reference": "snapshot.current.window[5]",
+                "quote": "No, these credits are non-transferable."
+              }
+            ]
           }
         ],
         "geography": [
@@ -5794,6 +5838,23 @@
               {
                 "reference": "snapshot.current.window[1]",
                 "quote": "Apply for Algolia credits What it includes $10,000 in Algolia Credits ( See Terms ) Valid for 12 months"
+              },
+              {
+                "reference": "snapshot.current.window[5]",
+                "quote": "Apply here to be part of the program."
+              }
+            ]
+          },
+          {
+            "candidate_id": "candidate-911728182a2d4dd6dec9",
+            "decision_id": "decision-1bd3983bbbd9b5923b2e",
+            "source_id": "algolia_startups",
+            "version": 2,
+            "applied_at": "2026-10-01T17:54:13.341785+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.current.window[1]",
+                "quote": "Apply for $10k in credits"
               },
               {
                 "reference": "snapshot.current.window[5]",
@@ -5845,15 +5906,27 @@
           "version": 1,
           "candidate_sha256": "d73c5667735d923c044b66e30b9d4234f3c61319e2a78c819354cfcfbb8f71bc",
           "applied_at": "2026-09-30T12:41:39.415722+00:00"
+        },
+        {
+          "decision_id": "decision-1bd3983bbbd9b5923b2e",
+          "candidate_id": "candidate-911728182a2d4dd6dec9",
+          "classification_id": "bootstrap-classification-76f4e297df2269fc4db3",
+          "event_id": "inventory-algolia_startups-6559458aff6b",
+          "source_id": "algolia_startups",
+          "action": "CREATE",
+          "decision": "UPDATE_CANONICAL",
+          "version": 2,
+          "candidate_sha256": "9b7865273b91e80e5cebe8cc472ca5cf89aa0543d608f40bd876c917b435ece5",
+          "applied_at": "2026-10-01T17:54:13.341785+00:00"
         }
       ],
       "source_kind": "EVIDENCE"
     },
     "lifecycle": {
-      "status": "ROLLING",
+      "status": "OPEN",
       "basis": "AUTHORITATIVE_PAGE",
       "announced": false,
-      "base_status": "ROLLING",
+      "base_status": "OPEN",
       "opens_at": null,
       "opens_at_precision": "NONE",
       "closes_at": null,
@@ -5861,7 +5934,7 @@
     },
     "timestamps": {
       "discovered_at": "2026-09-30T12:41:39.415722+00:00",
-      "last_changed_at": "2026-09-30T12:41:39.415722+00:00",
+      "last_changed_at": "2026-10-01T17:54:13.341785+00:00",
       "last_checked_at": null,
       "last_verified_at": null,
       "opens_at": null,
@@ -5871,15 +5944,15 @@
     "enrichment": {
       "version": "public-product-v2-enrichment-1.0"
     },
-    "summary_pl": "Program Algolia Startup Program przyznaje nowym klientom Algolia kredyty o wartości $10,000 ważne przez 12 miesięcy wraz z najwyższej klasy wsparciem, ofertami partnerów, wczesnym dostępem do funkcji oraz społecznością założycieli. Program jest dostępny dla startupów działających krócej niż 7 lat, które zebrały łącznie mniej niż $15M finansowania, i wyłącznie dla nowych klientów Algolia. Nie kwalifikują się osoby, które są już płacącymi klientami Algolia, ani osoby, które wcześniej wykorzystały inny kod rabatowy.",
-    "summary_pl_source_hash": "eb0ccb90c039bc981d22a86508f80221",
+    "summary_pl": "Program oferuje zakwalifikowanym startupom 10 000 USD kredytów w Algolia, ważnych przez 12 miesięcy, a także oferty i kredyty partnerów, wcześniejszy dostęp do nowych funkcji Algolia, wsparcie najwyższej klasy oraz społeczność założycieli. Mogą się zgłosić startupy mające mniej niż 7 lat, które łącznie pozyskały mniej niż 15 mln USD finansowania. Program jest przeznaczony wyłącznie dla nowych klientów Algolia – osoby, które są już płacącymi klientami Algolia lub wcześniej wykorzystały inny kod kuponowy, nie mogą się zgłosić, a kredyty nie są przenoszalne.",
+    "summary_pl_source_hash": "8bdead20d24981341a10dfe73ff00583",
     "freshness": {
       "version": "freshness-v1",
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -6286,8 +6359,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -6604,8 +6677,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -7131,8 +7204,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -7479,8 +7552,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -7705,8 +7778,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -8038,8 +8111,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -8427,8 +8500,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -8657,8 +8730,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -9119,8 +9192,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -9360,8 +9433,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -9735,8 +9808,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -10137,8 +10210,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -10559,14 +10632,14 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
   {
     "opportunity_id": "opp-a18aa660612c3bb21b60",
-    "title": "Platformy startowe dla nowych pomysłów – komponent IIb – Wsparcie rozwoju działalności gospodarczej startupu",
+    "title": "1.1 Platformy startowe dla nowych pomysłów – komponent IIb – Wsparcie rozwoju działalności gospodarczej startupu",
     "provider": {
       "name": "Polska Agencja Rozwoju Przedsiębiorczości",
       "provider_type": "UNKNOWN"
@@ -10589,7 +10662,7 @@
         "amount_min": null,
         "amount_max": null,
         "currency": null,
-        "description": "Dofinansowanie do 85% kosztów zakupu usług wspomagających rozwój działalności gospodarczej startupu (z wyłączeniem usług szkoleniowych), wynagrodzeń personelu projektu lub zakupu środków trwałych, surowców lub materiałów oraz wartości niematerialnych i prawnych."
+        "description": "Grant of up to 85% co-financing for supporting services for the startup's business development (excluding training services), project staff salaries, or purchase of fixed assets, raw materials or materials and intangible and legal values."
       }
     ],
     "eligibility": {
@@ -10634,7 +10707,7 @@
     "evidence": [
       {
         "url": "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-2",
-        "authority": "PRIMARY",
+        "authority": "OFFICIAL_PUBLIC",
         "supports": [
           "application_deadline",
           "application_open_at",
@@ -10663,10 +10736,10 @@
       "canonical": {
         "canonical_id": "opp-a18aa660612c3bb21b60",
         "identity_key": "url:https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-2",
-        "version": 2,
+        "version": 3,
         "status": "UPCOMING",
         "created_at": "2026-10-01T09:07:57.135451+00:00",
-        "updated_at": "2026-10-01T09:07:57.138344+00:00",
+        "updated_at": "2026-10-01T17:54:13.418959+00:00",
         "closed_at": null,
         "promoter_version": "canonical-promoter-v0.1"
       },
@@ -10691,7 +10764,8 @@
       ],
       "history_versions": [
         1,
-        2
+        2,
+        3
       ],
       "evidence_urls": [
         "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-2"
@@ -10763,6 +10837,19 @@
               {
                 "reference": "snapshot.current.window[0]",
                 "quote": "maksymalnie 85%"
+              }
+            ]
+          },
+          {
+            "candidate_id": "candidate-872e0696699f18d1d6ba",
+            "decision_id": "decision-84053efc4769e2a1d094",
+            "source_id": "fepw_platformy_startowe_iib",
+            "version": 3,
+            "applied_at": "2026-10-01T17:54:13.418959+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.current.window[0]",
+                "quote": "Dofinansowanie można otrzymać na zakup usług wspomagających rozwój działalności gospodarczej startupu, z wyłączeniem usług szkoleniowych, na wynagrodzenia personelu projektu lub zakup środków trwałych, surowców lub materiałów oraz wartości niematerialnych i prawnych"
               }
             ]
           }
@@ -10908,6 +10995,19 @@
                 "quote": "Platformy startowe dla nowych pomysłów – komponent IIb – Wsparcie rozwoju działalności gospodarczej startupu"
               }
             ]
+          },
+          {
+            "candidate_id": "candidate-872e0696699f18d1d6ba",
+            "decision_id": "decision-84053efc4769e2a1d094",
+            "source_id": "fepw_platformy_startowe_iib",
+            "version": 3,
+            "applied_at": "2026-10-01T17:54:13.418959+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.current.title",
+                "quote": "1.1 Platformy startowe dla nowych pomysłów – komponent IIb – Wsparcie rozwoju działalności gospodarczej startupu"
+              }
+            ]
           }
         ],
         "application_url": [
@@ -10977,6 +11077,18 @@
           "version": 2,
           "candidate_sha256": "8cf47008a68b827b57ffe7e77eb3dcad7697686f9bc5587ecc2f64d1e2bac277",
           "applied_at": "2026-10-01T09:07:57.138344+00:00"
+        },
+        {
+          "decision_id": "decision-84053efc4769e2a1d094",
+          "candidate_id": "candidate-872e0696699f18d1d6ba",
+          "classification_id": "bootstrap-classification-4f0df2a0d892522ee43a",
+          "event_id": "inventory-fepw_platformy_startowe_iib-fc32b4ed7731",
+          "source_id": "fepw_platformy_startowe_iib",
+          "action": "CREATE",
+          "decision": "UPDATE_CANONICAL",
+          "version": 3,
+          "candidate_sha256": "6c601a92852b1dd85d50cff2a8c8091fdd08e24ee4353f7f93272cda5b7e5d24",
+          "applied_at": "2026-10-01T17:54:13.418959+00:00"
         }
       ],
       "source_kind": "EVIDENCE"
@@ -10994,25 +11106,25 @@
     },
     "timestamps": {
       "discovered_at": "2026-10-01T09:07:57.135451+00:00",
-      "last_changed_at": "2026-10-01T09:07:57.138344+00:00",
+      "last_changed_at": "2026-10-01T17:54:13.418959+00:00",
       "last_checked_at": null,
       "last_verified_at": null,
       "opens_at": "2026-10-06",
       "closes_at": "2026-12-10"
     },
-    "slug": "platformy-startowe-dla-nowych-pomysow-komponent-iib-wsparcie-22fe1225",
+    "slug": "1-1-platformy-startowe-dla-nowych-pomysow-komponent-iib-wspa-22fe1225",
     "enrichment": {
       "version": "public-product-v2-enrichment-1.0"
     },
-    "summary_pl": "Polska Agencja Rozwoju Przedsiębiorczości oferuje dofinansowanie pokrywające do 85% kosztów zakupu usług wspomagających rozwój działalności gospodarczej startupu, wynagrodzeń personelu projektu oraz zakupu środków trwałych, surowców lub materiałów, a także wartości niematerialnych i prawnych. Z dofinansowania wyłączone są usługi szkoleniowe. Program skierowany jest do mikro i małych spółek kapitałowych z siedzibą na obszarze makroregionu Polski Wschodniej, prowadzących działalność w formie spółki z ograniczoną odpowiedzialnością lub spółki akcyjnej. Wniosek o dofinansowanie należy złożyć za pośrednictwem systemu LSI opracowanego przez Polską Agencję Rozwoju Przedsiębiorczości, w terminie do 2026-12-10 (nabór otwiera się 2026-10-06).",
-    "summary_pl_source_hash": "48c6a6073884ec713af40b03437a7ea1",
+    "summary_pl": "Instrument oferuje dofinansowanie do 85% kosztów wsparcia rozwoju działalności gospodarczej startupu, w tym wynagrodzeń pracowników projektu lub zakupu środków trwałych, surowców, materiałów oraz wartości niematerialnych i prawnych, z wyłączeniem usług szkoleniowych. Mogą się zgłosić mikro i małe spółki kapitałowe (sp. z o.o. oraz spółka akcyjna) mające siedzibę na obszarze makroregionu Polski Wschodniej. Wniosek o dofinansowanie należy złożyć za pośrednictwem systemu LSI opracowanego przez Polską Agencję Rozwoju Przedsiębiorczości, w terminie od 2026-10-06 do 2026-12-10.",
+    "summary_pl_source_hash": "2d7e552ea51516499b4e2931eb53b91d",
     "freshness": {
       "version": "freshness-v1",
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -11412,8 +11524,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -11842,8 +11954,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -12196,8 +12308,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -12597,8 +12709,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -12956,8 +13068,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -13327,8 +13439,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -13623,8 +13735,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -13961,8 +14073,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -14307,8 +14419,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -14666,8 +14778,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -14982,8 +15094,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -15317,8 +15429,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -15691,8 +15803,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -16129,8 +16241,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -16580,8 +16692,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -17041,8 +17153,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   },
@@ -17429,8 +17541,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
-      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "last_checked_at": "2026-10-01T17:54:52.761901+00:00",
+      "as_of": "2026-10-01T18:16:03.324102+00:00",
       "warning": false
     }
   }
