@@ -1,6 +1,7 @@
 ---
 import {
-  STATUS_LABELS, STATUS_HINTS, STATUS_CLASS, GEOGRAPHY_LABELS, BENEFIT_LABELS,
+  STATUS_LABELS, STATUS_HINTS, STATUS_CLASS, GEOGRAPHY_LABELS, GEOGRAPHY_PLAIN,
+  geographyBadge, BENEFIT_LABELS,
   OPPORTUNITY_TYPE_LABELS, APPLICANT_LABELS, LEGAL_FORM_LABELS,
   COMPANY_STAGE_LABELS, FUNDING_STAGE_LABELS, TIMESTAMP_LABELS, label,
 } from '../lib/labels.js';
@@ -76,7 +77,11 @@ const detailHref = item.slug ? `/opportunities/${item.slug}/` : null;
 >
   <div class="badges">
     <span class={`badge ${STATUS_CLASS[item.status] || 'status-unknown'}`}>{label(STATUS_LABELS, item.status)}</span>
-    <span class="badge" title="Zasięg geograficzny wynikający z kwalifikowalności">{label(GEOGRAPHY_LABELS, geography)}</span>
+    <span
+      class="badge geo-badge"
+      title="Zasięg geograficzny wynikający z kwalifikowalności"
+      set:html={geographyBadge(geography) + label(GEOGRAPHY_PLAIN, geography)}
+    />
     {(item.opportunity_types || []).slice(0, 3).map((type: string) => (
       <span class="badge">{label(OPPORTUNITY_TYPE_LABELS, type)}</span>
     ))}

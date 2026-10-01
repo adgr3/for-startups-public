@@ -1,11 +1,13 @@
 {
-  "digest": "e4bf13a48ca166cee1c1deea59e8fe47bfa8383fb88172ac4b2e56b10cf61fc5",
-  "generated_at": "2026-09-30T15:51:22.803661+00:00",
-  "item_count": 34,
+  "digest": "4af921c28dbf68d27a0a78dc3e43f5afc9819a7266861baed59a0bea5c737fcd",
+  "generated_at": "2026-10-01T09:13:19.510113+00:00",
+  "item_count": 47,
   "status_counts": {
-    "OPEN": 17,
+    "OPEN": 21,
     "ROLLING": 15,
-    "UNKNOWN": 2
+    "CLOSED": 4,
+    "UNKNOWN": 5,
+    "UPCOMING_CONFIRMED": 2
   },
   "source": "prod-pipeline-catalog-current"
 }

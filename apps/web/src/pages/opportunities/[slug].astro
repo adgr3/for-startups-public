@@ -3,7 +3,8 @@ import Base from '../../layouts/Base.astro';
 import OpportunityCard from '../../components/OpportunityCard.astro';
 import { loadCatalog, isActive } from '../../lib/catalog.js';
 import {
-  STATUS_LABELS, STATUS_HINTS, STATUS_CLASS, GEOGRAPHY_LABELS, BENEFIT_LABELS,
+  STATUS_LABELS, STATUS_HINTS, STATUS_CLASS, GEOGRAPHY_LABELS, GEOGRAPHY_PLAIN,
+  geographyBadge, BENEFIT_LABELS,
   OPPORTUNITY_TYPE_LABELS, APPLICANT_LABELS, LEGAL_FORM_LABELS,
   COMPANY_STAGE_LABELS, FUNDING_STAGE_LABELS, TIMESTAMP_LABELS, label,
 } from '../../lib/labels.js';
@@ -56,7 +57,10 @@ const jsonLd = {
 
   <div class="badges" style="margin-bottom:14px">
     <span class={`badge ${STATUS_CLASS[item.status] || 'status-unknown'}`}>{label(STATUS_LABELS, item.status)}</span>
-    <span class="badge">{label(GEOGRAPHY_LABELS, item.geography?.scope || 'UNKNOWN')}</span>
+    <span
+      class="badge geo-badge"
+      set:html={geographyBadge(item.geography?.scope || 'UNKNOWN') + label(GEOGRAPHY_PLAIN, item.geography?.scope || 'UNKNOWN')}
+    />
     {(item.opportunity_types || []).map((t) => <span class="badge">{label(OPPORTUNITY_TYPE_LABELS, t)}</span>)}
   </div>
 
@@ -96,7 +100,7 @@ const jsonLd = {
       <dd>{item.provider?.name && item.provider.name !== 'UNKNOWN' ? item.provider.name : 'nieznany'}</dd>
 
       <dt>Zasięg geograficzny</dt>
-      <dd>{label(GEOGRAPHY_LABELS, item.geography?.scope || 'UNKNOWN')}</dd>
+      <dd>{label(GEOGRAPHY_PLAIN, item.geography?.scope || 'UNKNOWN')}</dd>
 
       <dt>Status życia cyklu</dt>
       <dd>{label(STATUS_LABELS, item.status)}{STATUS_HINTS[item.status] ? ` — ${STATUS_HINTS[item.status]}` : ''}</dd>

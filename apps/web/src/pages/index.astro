@@ -1,7 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import OpportunityCard from '../components/OpportunityCard.astro';
-import { loadCatalog, isActive, isUpcoming, supportedValues, SORTS } from '../lib/catalog.js';
+import {
+  loadCatalog, isActive, isUpcoming, supportedValues, SORTS, TYPE_GROUPS,
+} from '../lib/catalog.js';
 import { GEOGRAPHY_PLAIN, OPPORTUNITY_TYPE_LABELS, STATUS_LABELS, label } from '../lib/labels.js';
 
 const { items, meta, loaded } = loadCatalog();
@@ -16,9 +18,16 @@ const statusOptions = supportedValues(active, 'status');
 const entityOptions = supportedValues(active, 'entity');
 const fundingOptions = supportedValues(active, 'funding');
 
-const GEO_FILTER_LABELS = { pl: '🇵🇱 Polska', eu: '🇪🇺 Unia Europejska', global: '🌍 Global' };
+const GEO_FILTER_LABELS = { pl: 'Polska', eu: 'Unia Europejska', global: 'Globalny' };
 const TYPE_FILTER_LABELS = {
-  grant: 'grant', accelerator: 'akcelerator', credits: 'kredyty', pilot: 'pilotaż',
+  grant: 'Grant',
+  accelerator: 'Akcelerator',
+  cloud: 'Kredyty chmurowe',
+  ai: 'Kredyty AI / API',
+  saas: 'Kredyty SaaS',
+  compute: 'Kredyty obliczeniowe',
+  discount: 'Zniżka',
+  pilot: 'Pilotaż',
 };
 const ENTITY_FILTER_LABELS = { jdg: 'JDG', company: 'spółka' };
 const FUNDING_FILTER_LABELS = { bootstrap: 'bootstrap', funded: 'z finansowaniem' };
@@ -98,13 +107,17 @@ const description = 'Katalog aktualnych i nadchodzących możliwości dla polski
         )}
       </section>
 
+      <script type="application/json" id="type-groups" set:html={JSON.stringify(TYPE_GROUPS)} />
+
       <div class="filter-bar" role="group" aria-label="Szybkie filtry">
         <span class="chip-label">Szybki wybór</span>
-        <button type="button" class="chip" data-preset="upcoming" aria-pressed="false">Nadchodzące nabory</button>
-        <button type="button" class="chip" data-preset="open" aria-pressed="false">Tylko otwarte</button>
-        <button type="button" class="chip" data-preset="pl" aria-pressed="false">Polska</button>
-        <button type="button" class="chip" data-preset="credits" aria-pressed="false">Kredyty</button>
-        <button type="button" class="chip" data-preset="reset" aria-pressed="false">Wyczyść filtry</button>
+        <button type="button" class="chip" data-preset="upcoming" data-control="status" data-value="UPCOMING" aria-pressed="false">Nadchodzące nabory</button>
+        <button type="button" class="chip" data-preset="open" data-control="status" data-value="OPEN" aria-pressed="false">Tylko otwarte</button>
+        <button type="button" class="chip" data-preset="pl" data-control="scope" data-value="pl" aria-pressed="false">Polska</button>
+        <button type="button" class="chip" data-preset="cloud" data-control="type" data-value="cloud" aria-pressed="false">Kredyty chmurowe</button>
+        <button type="button" class="chip" data-preset="ai" data-control="type" data-value="ai" aria-pressed="false">Kredyty AI / API</button>
+        <button type="button" class="chip" data-preset="saas" data-control="type" data-value="saas" aria-pressed="false">Kredyty SaaS</button>
+        <button type="button" class="chip chip-reset" data-preset="reset" aria-pressed="false">Wyczyść filtry</button>
       </div>
 
       <p class="results-meta" id="results-meta">Wyświetlono {active.length} z {active.length} możliwości.</p>
@@ -163,13 +176,7 @@ const description = 'Katalog aktualnych i nadchodzących możliwości dla polski
             }
             if (type.value) {
               const types = (card.dataset.types || '').split(',');
-              const groups = {
-                grant: ['GRANT'],
-                accelerator: ['ACCELERATOR', 'INCUBATOR'],
-                credits: ['CLOUD_CREDITS', 'AI_API_CREDITS', 'SAAS_CREDITS', 'COMPUTE_CREDITS', 'DISCOUNT'],
-                pilot: ['CORPORATE_PILOT', 'CORPORATE_CHALLENGE'],
-              };
-              if (!(groups[type.value] || []).some((t) => types.includes(t))) return false;
+              if (!(TYPE_GROUPS[type.value] || []).some((t) => types.includes(t))) return false;
             }
             if (entity.value) {
               const forms = (card.dataset.legalForms || '').split(',').filter(Boolean);
@@ -225,45 +232,68 @@ const description = 'Katalog aktualnych i nadchodzących możliwości dla polski
             noResults.classList.toggle('hidden', visible !== 0);
           }
 
-          const PRESETS = {
-            upcoming: () => { status.value = 'UPCOMING'; },
-            open: () => { status.value = 'OPEN'; },
-            pl: () => { scope.value = 'pl'; },
-            credits: () => { type.value = 'credits'; },
-            reset: () => {
-              q.value = ''; status.value = ''; scope.value = '';
-              type.value = ''; if (entity) entity.value = '';
-              if (funding) funding.value = ''; sort.value = 'recent';
-            },
-          };
+          // Every quick filter is a one-click *view*: applying it clears the
+          // other filters first, so a chip can never quietly intersect with a
+          // previous one and show an empty grid that looks like a broken button.
+          const PRESET_CONTROLS = { status: status, scope: scope, type: type };
+          const TYPE_GROUPS = JSON.parse(document.getElementById('type-groups').textContent);
+
+          function hasOption(control, value) {
+            return !!control && Array.from(control.options).some((o) => o.value === value);
+          }
+
+          function clearFilters() {
+            q.value = '';
+            status.value = '';
+            scope.value = '';
+            type.value = '';
+            if (entity) entity.value = '';
+            if (funding) funding.value = '';
+          }
+
+          function syncChips() {
+            for (const chip of document.querySelectorAll('[data-preset]')) {
+              if (chip.dataset.preset === 'reset') {
+                chip.setAttribute('aria-pressed', 'false');
+                continue;
+              }
+              const control = PRESET_CONTROLS[chip.dataset.control];
+              const value = chip.dataset.value;
+              const available = hasOption(control, value);
+              chip.disabled = !available;
+              chip.setAttribute('aria-disabled', available ? 'false' : 'true');
+              if (available) chip.removeAttribute('title');
+              else chip.title = 'Ten filtr nie ma pozycji w bieżącym katalogu.';
+              chip.setAttribute(
+                'aria-pressed',
+                available && control.value === value ? 'true' : 'false',
+              );
+            }
+          }
 
           for (const el of [q, sort, status, scope, type, entity, funding].filter(Boolean)) {
-            el.addEventListener('input', apply);
-            el.addEventListener('change', apply);
+            el.addEventListener('input', () => { syncChips(); apply(); });
+            el.addEventListener('change', () => { syncChips(); apply(); });
           }
           for (const chip of document.querySelectorAll('[data-preset]')) {
             chip.addEventListener('click', () => {
-              const run = PRESETS[chip.dataset.preset];
-              if (run) run();
+              if (chip.dataset.preset === 'reset') {
+                clearFilters();
+                sort.value = 'recent';
+              } else {
+                const control = PRESET_CONTROLS[chip.dataset.control];
+                const value = chip.dataset.value;
+                const already = control && control.value === value;
+                clearFilters();
+                if (!already) control.value = value;
+              }
               syncChips();
               apply();
             });
           }
-          function syncChips() {
-            for (const chip of document.querySelectorAll('[data-preset]')) {
-              const p = chip.dataset.preset;
-              let on = false;
-              if (p === 'upcoming') on = status.value === 'UPCOMING';
-              if (p === 'open') on = status.value === 'OPEN';
-              if (p === 'pl') on = scope.value === 'pl';
-              if (p === 'credits') on = type.value === 'credits';
-              if (p === 'reset') on = !(q.value || status.value || scope.value || type.value);
-              chip.setAttribute('aria-pressed', on ? 'true' : 'false');
-            }
-          }
 
-          apply();
           syncChips();
+          apply();
         })();
       </script>
     </>

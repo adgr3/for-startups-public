@@ -61,10 +61,19 @@ const GEO_FILTERS = {
   global: ['GLOBAL'],
 };
 
-const TYPE_GROUPS = {
+// One group per benefit taxonomy value, never a bucket of several: "credits"
+// used to swallow cloud, AI, SaaS, compute and discount under one ambiguous
+// label, so a reader could not tell what the filter would actually return.
+// Exported because the client-side filter must use the *same* table — a second
+// copy in the page is a second thing to forget.
+export const TYPE_GROUPS = {
   grant: ['GRANT'],
   accelerator: ['ACCELERATOR', 'INCUBATOR'],
-  credits: ['CLOUD_CREDITS', 'AI_API_CREDITS', 'SAAS_CREDITS', 'COMPUTE_CREDITS', 'DISCOUNT'],
+  cloud: ['CLOUD_CREDITS'],
+  ai: ['AI_API_CREDITS'],
+  saas: ['SAAS_CREDITS'],
+  compute: ['COMPUTE_CREDITS'],
+  discount: ['DISCOUNT'],
   pilot: ['CORPORATE_PILOT', 'CORPORATE_CHALLENGE'],
 };
 
