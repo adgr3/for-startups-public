@@ -18,7 +18,17 @@ const {
   jsonLd = null,
 } = Astro.props;
 
-const siteUrl = 'https://for-startups.pages.dev';
+// The canonical URL is configuration, never hardcoded: config/site.json is the
+// private source of truth and only the derived value reaches meta.json, so a
+// custom domain is activated by changing one config value and rebuilding.
+const siteUrl = (typeof meta.site_url === 'string' && meta.site_url)
+  ? meta.site_url.replace(/\/$/, '')
+  : 'https://for-startups.pages.dev';
+const searchConsoleVerification = typeof meta.search_console_verification === 'string'
+  ? meta.search_console_verification : null;
+const analyticsToken = typeof meta.analytics_token === 'string' ? meta.analytics_token : null;
+const analyticsProvider = meta.analytics_provider === 'cloudflare-web-analytics'
+  ? 'cloudflare-web-analytics' : null;
 const canonical = canonicalPath.startsWith('http') ? canonicalPath : `${siteUrl}${canonicalPath}`;
 const generatedAt = typeof meta.generated_at === 'string' ? meta.generated_at : null;
 const generatedStamp = formatStamp(generatedAt);
@@ -46,6 +56,9 @@ const fullTitle = title.includes('For Startups') ? title : `${title} · For Star
     <meta name="twitter:description" content={description} />
     <link rel="sitemap" href="/sitemap.xml" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {searchConsoleVerification && (
+      <meta name="google-site-verification" content={searchConsoleVerification} />
+    )}
     {jsonLd && (
       <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
     )}
@@ -93,6 +106,14 @@ const fullTitle = title.includes('For Startups') ? title : `${title} · For Star
         </div>
       </div>
     </footer>
+    {analyticsToken && analyticsProvider && (
+      <script
+        is:inline
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: analyticsToken })}
+      ></script>
+    )}
   </body>
 </html>
 <style is:global>
@@ -258,6 +279,10 @@ const fullTitle = title.includes('For Startups') ? title : `${title} · For Star
   .btn:hover { filter: brightness(1.1); }
   .btn-secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
   .freshness { color: var(--muted); font-size: 11.5px; width: 100%; }
+  .freshness-warning {
+    font-size: 12.5px; color: #ffd7a0; background: rgba(245,189,60,.12);
+    border: 1px dashed rgba(245,189,60,.5); border-radius: 8px; padding: 6px 10px; margin: 0;
+  }
   .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin: 34px 0 14px; }
   .section-head h2 { font-size: 20px; margin: 0; }
   .section-head p { margin: 0; color: var(--muted); font-size: 13.5px; }

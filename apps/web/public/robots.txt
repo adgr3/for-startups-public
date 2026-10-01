@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://for-startups.pages.dev/sitemap.xml

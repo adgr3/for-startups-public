@@ -1,9 +1,12 @@
 import { loadCatalog } from '../lib/catalog.js';
 
-const SITE = 'https://for-startups.pages.dev';
+const DEFAULT_SITE = 'https://for-startups.pages.dev';
 
 export function GET() {
-  const { items } = loadCatalog();
+  const { items, meta } = loadCatalog();
+  const SITE = (typeof meta.site_url === 'string' && meta.site_url)
+    ? meta.site_url.replace(/\/$/, '')
+    : DEFAULT_SITE;
   const staticPaths = ['/', '/historia/'];
   const opportunityPaths = items
     .filter((item) => item.slug)

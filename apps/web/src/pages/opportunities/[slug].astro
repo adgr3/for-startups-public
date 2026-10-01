@@ -168,6 +168,18 @@ const jsonLd = {
 
       <dt>Pewność danych</dt>
       <dd>{item.verification?.status} · {item.verification?.confidence}</dd>
+
+      <dt>Świeżość danych</dt>
+      <dd>
+        {item.freshness?.state || 'UNKNOWN'}
+        {typeof item.freshness?.age_days === 'number' ? ` · sprawdzono ${item.freshness.age_days} dni temu` : ''}
+        {item.freshness?.warning
+          ? <span class="unknown"> · dane mogą być nieaktualne</span>
+          : ''}
+        {item.freshness?.last_checked_at
+          ? <span class="stamp-note"> · {formatStamp(item.freshness.last_checked_at)}</span>
+          : ''}
+      </dd>
     </dl>
   </div>
 

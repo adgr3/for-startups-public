@@ -37,7 +37,8 @@ const requirements = item.eligibility?.requirements_text || [];
 const exclusions = item.eligibility?.exclusions_text || [];
 
 const stamps = item.timestamps || {};
-const lastChecked = stamps.last_checked_at || item.verification?.last_checked_at || null;
+const freshness = item.freshness || {};
+const lastChecked = freshness.last_checked_at || stamps.last_checked_at || item.verification?.last_checked_at || null;
 const lastVerified = stamps.last_verified_at || item.verification?.last_verified_at || null;
 const discoveredAt = stamps.discovered_at || item.projection?.canonical?.created_at || null;
 
@@ -154,6 +155,13 @@ const detailHref = item.slug ? `/opportunities/${item.slug}/` : null;
         </>
       )}
     </details>
+  )}
+
+  {freshness.warning && (
+    <p class="freshness-warning" role="status">
+      Dane mogą być nieaktualne — źródło sprawdzone {freshness.age_days} dni temu
+      {freshness.last_checked_at ? ` (${formatStamp(freshness.last_checked_at)})` : ''}.
+    </p>
   )}
 
   <div class="card-actions">

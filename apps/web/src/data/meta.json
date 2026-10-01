@@ -1,6 +1,6 @@
 {
-  "digest": "4af921c28dbf68d27a0a78dc3e43f5afc9819a7266861baed59a0bea5c737fcd",
-  "generated_at": "2026-10-01T09:13:19.510113+00:00",
+  "digest": "aa344a3e7acdc20286751bb926c1c256dc1e4e2d1f27177dbe39b6de0c5f99a2",
+  "generated_at": "2026-10-01T12:01:31.214743+00:00",
   "item_count": 47,
   "status_counts": {
     "OPEN": 21,
@@ -9,5 +9,11 @@
     "UNKNOWN": 5,
     "UPCOMING_CONFIRMED": 2
   },
-  "source": "prod-pipeline-catalog-current"
+  "source": "prod-pipeline-catalog-current",
+  "site_url": "https://for-startups.pages.dev",
+  "site_fallback_url": "https://for-startups.pages.dev",
+  "custom_domain": null,
+  "search_console_verification": null,
+  "analytics_provider": "cloudflare-web-analytics",
+  "analytics_token": null
 }

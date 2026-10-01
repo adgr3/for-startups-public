@@ -320,7 +320,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Instrument współfinansowania EIT Food wspiera startupy z branży agro-food, pomagając im ograniczyć ryzyko projektów pilotażowych oraz promując innowacje i współpracę z liderami przemysłu. Jest to program z zakresu dofinansowania (CASH_GRANT), skierowany do startupów. Kwota dofinansowania nie została podana. Termin zakończenia zgłoszeń to 2026-11-30, a status jest OPEN.",
-    "summary_pl_source_hash": "44bbb65404788a83e639f799345bd19d"
+    "summary_pl_source_hash": "44bbb65404788a83e639f799345bd19d",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-0983bbe26b3b9eee9170",
@@ -637,7 +646,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program EIC oferuje beneficjentom EIC co najmniej trzy dni bezpłatnego coachingu biznesowego prowadzonego przez niezależnych, wspieranych przez UE ekspertów, aby dopracować propozycję wartości, prezentację dla inwestorów, wejście na rynek i strategię przywództwa. Mogą z niego korzystać wszyscy laureaci EIC: aplikanci EIC Accelerator (2. etap), laureaci EIC Accelerator i Pre-accelerator, laureaci EIC Pathfinder i EIC Transition, laureaci naboru „Support for the Ukrainian Tech SMEs and start-ups”, laureaci Women TechEU oraz posiadacze Seal of Excellence. Na stronie programu można przeszukać ponad 600 wysoko ocenianych trenerów biznesowych. Program ma status ROLLING, czyli przyjmuje zgłoszenia bez ustalonego terminu.",
-    "summary_pl_source_hash": "24f2c1de3d4272dce4b8d3513932a0d9"
+    "summary_pl_source_hash": "24f2c1de3d4272dce4b8d3513932a0d9",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-0f20fa1d2a624d18ca6f",
@@ -928,7 +946,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Wybrane MŚP otrzymują dofinansowanie w wysokości EUR 60,000 na projekt, realizowany w ramach siedmiomiesięcznego projektu Agile Innovation, aby replikować i skalować swoje rozwiązanie w nowych regionach lub sektorach. Nabór kierowany jest do innowacyjnych MŚP dołączających do społeczności EIT Urban Mobility. Status programu to CLOSED, a kwoty dofinansowania podano jako EUR 60,000 na projekt.",
-    "summary_pl_source_hash": "4d1c96ba6fdb19de21e8dabfb455b0df"
+    "summary_pl_source_hash": "4d1c96ba6fdb19de21e8dabfb455b0df",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-0fdbd0052764e42eb54e",
@@ -1232,7 +1259,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "W programie Y Combinator każda spółka otrzymuje dedykowanego partnera YC General Partner, dostęp do ponad $12M bezpłatnych kredytów oraz ofert od partnerów takich jak OpenAI, Anthropic, AWS, Google Cloud, Azure i Stripe. Program zapewnia również przedstawienia do inwestorskiej sieci YC, aby pomóc w pozyskaniu dodatkowych środków.",
-    "summary_pl_source_hash": "949a91581b822ac90a2d11c40e9b56b8"
+    "summary_pl_source_hash": "949a91581b822ac90a2d11c40e9b56b8",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-161a640732b89c714cfa",
@@ -1542,7 +1578,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "W programie Databricks for Startups kwalifikujące się startupy mogą otrzymać do $200K kredytów na Databricks i Neon. Nie masz pewności, czy się kwalifikujesz? Złóż wniosek lub zapytaj swojego inwestora.",
-    "summary_pl_source_hash": "b3973f640deb8c742875acd668ed1e03"
+    "summary_pl_source_hash": "b3973f640deb8c742875acd668ed1e03",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-1786450968a2e9bc7c39",
@@ -1915,7 +1960,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Notion for Startups oferuje bezpłatny plan Notion Business do 6 miesięcy wraz z Notion AI, o wartości do $12,000 dla 100 pracowników. Program jest dostępny na wszystkich etapach rozwoju — od fazy pomysłu, przez MVP i etap przed osiągnięciem przychodu, po wzrost i skalowanie — w branżach oprogramowania, technologii, SaaS i narzędzi AI, niezależnie od etapu finansowania.",
-    "summary_pl_source_hash": "b0f7958998eb833eb9c3ca630212af14"
+    "summary_pl_source_hash": "b0f7958998eb833eb9c3ca630212af14",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-1a4da3c3079c55899fd3",
@@ -2213,7 +2267,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "W programie Intercom Early Stage Startup Program startupy na wczesnym etapie otrzymują 93% zniżki na Intercom Helpdesk w pierwszym roku oraz bezpłatny rok dostępu do Fin AI Agent z 300 outcomes i 15 qualifications miesięcznie, od $33 miesięcznie.",
-    "summary_pl_source_hash": "1109ba42a8ec4aee4068cdc40c465550"
+    "summary_pl_source_hash": "1109ba42a8ec4aee4068cdc40c465550",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-1e35bfcd13b097ef2921",
@@ -2509,7 +2572,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "W programie Miro for Startups startupy dołączają do społeczności startupowej Miro, aby korzystać z ekskluzywnych ofert i benefitów oraz pracować w jednej przestrzeni Miro obejmującej tablice, mapy drogowe, przepływy pracy i pętle informacji zwrotnej. Zarówno firmy na początku drogi, jak i te w fazie skalowania mogą z tego korzystać.",
-    "summary_pl_source_hash": "11a6298ba68c01b84847f491bee0562a"
+    "summary_pl_source_hash": "11a6298ba68c01b84847f491bee0562a",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-1f1334013bb1abd71240",
@@ -2931,7 +3003,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "IFIRMA Startup Contest 2026 to konkurs dla startupów zarejestrowanych w Polsce, działających od 2021 roku, które mają już MVP, gotowy produkt lub usługę obecną na rynku, przy czym kluczowym kryterium jest AI jako istotna część rozwiązania. Każdy uczestnik może przesłać jedno zgłoszenie, zgłoszenie i udział są bezpłatne, a termin zgłoszeń upływa 2026-10-02. Wszyscy finaliści otrzymują prezentację i promocję startupu (strona konkursu, social media, publikacja pokonkursowa), a zwycięzca dodatkowo nagrodę pieniężną 5 000 zł, wejście do strefy VIP w drugim dniu konferencji AIBA, udział w Executive Meetup 23.10.2026 wraz z rokiem Księgowości Internetowej i pakietem do fakturowania i e-commerce oraz pakiet 2h mentoringu biznesowego. Zgłaszany startup musi mieć co najmniej działające MVP, które można przetestować z użytkownikami, albo produkt lub usługę funkcjonującą już na rynku, i nie podlega wyłączeniom określonym w Regulaminie.",
-    "summary_pl_source_hash": "d72413ef15003ae18ece3af642e1cefd"
+    "summary_pl_source_hash": "d72413ef15003ae18ece3af642e1cefd",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-21bdaa111111481b072d",
@@ -3508,7 +3589,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Cloudflare for Startups oferuje wczesnym startupom technologicznym do 350,000 USD kredytów w Cloudflare na jeden rok oraz dostęp do platformy deweloperskiej, przy trzech poziomach: Tier 3 ($10k), Tier 2 ($100k) i Tier 1 ($350k). Program jest przeznaczony dla podmiotów założonych w ciągu ostatnich 10 lat, finansowanych do rundy Series B, budujących produkt technologiczny, posiadających ważną, publicznie dostępną stronę internetową i aktywnych na LinkedIn, X (Twitter) lub GitHub; wymagane jest też prowadzenie działalności na zysk z adresem e-mail firmowym zgodnym z domeną oraz finansowanie bootstrap lub własne. Program nie jest obecnie dostępny dla instytucji edukacyjnych, blogów osobistych, firm konsultingowych, agencji świadczących usługi, MSP ani resellerów; obowiązuje zasada pierwszego przyjęcia, a istniejący klienci enterprise nie mogą z niego korzystać. Credits nie obejmują AI Gateway, a opłaty za rejestrację i odnowienie domen nie kwalifikują się do obniżenia, plan jest jednorazowy na startup i kredyty nie mogą być przenoszone między kontami.",
-    "summary_pl_source_hash": "d271f84905284d7631f583355e27844a"
+    "summary_pl_source_hash": "d271f84905284d7631f583355e27844a",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-245a5b4fe42292f6fce7",
@@ -3827,7 +3917,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Silicon Catalyst to 24-miesięczny, indywidualnie dostosowany program akceleracyjny dla startupów sprzętu półprzewodnikowego, z dedykowanym partnerem Silicon Catalyst, programem szkoleniowym skoncentrowanym na półprzewodnikach oraz ponad 40 wydarzeniami rocznie. Program obejmuje ponadto kilka milionów dolarów niepieniężnych dóbr i usług (narzędzia EDA, IP, PDK, prototypy, projektowanie i testy, opakowania) od partnerów niepieniężnych i strategicznych oraz dostęp do ponad 500 funduszy VC, aniołów inwestorskich i korporacyjnych VC. Obejmuje on sektory: półprzewodniki, układy, chiplets, materiały półprzewodnikowe, IP półprzewodnikowe, fotonikę opartą na produkcji krzemowej, MEMS, sensory, nauki o życiu oraz kwant.",
-    "summary_pl_source_hash": "6f5020f5d4d6267014d242a2166c118d"
+    "summary_pl_source_hash": "6f5020f5d4d6267014d242a2166c118d",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-285bae1d59ad0b0caeac",
@@ -4063,7 +4162,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Fundusze Europejskie dla Polski Wschodniej (FEPW) to program Ministerstwa Funduszy i Polityki Regionalnej. W dostarczonych danych nie podano informacji o rodzaju wsparcia, kryteriach kwalifikacji ani terminach. Status programu jest nieokreślony.",
-    "summary_pl_source_hash": "2aab76546f72098fdd152f792dfd3da2"
+    "summary_pl_source_hash": "2aab76546f72098fdd152f792dfd3da2",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-32ec00aec7b2eff4b131",
@@ -4546,7 +4654,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Stripe Startups daje startupowi kredyty na pokrycie opłat Stripe, rabat na Stripe Invoicing, eksperckie wsparcie produktowe, dopasowane porady oraz dostęp do społeczności założycieli i przedstawicieli Stripe. Program jest przeznaczony dla firm wspieranych przez kapitał ryzyka (venture-backed), które dopiero rozpoczynają działalność. Status programu to OPEN.",
-    "summary_pl_source_hash": "1cc3f51e5324b04781e3322ca0177167"
+    "summary_pl_source_hash": "1cc3f51e5324b04781e3322ca0177167",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-40786c440735d2c09eb7",
@@ -4961,7 +5078,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program AWS Activate Credits przyznaje kwalifikującym się startupom promocyjne kredyty AWS do $5,000 (tier Founders, finansowanie własne) lub do $200,000 (tier Portfolio, wymaga Activate Provider Org ID), aby ułatwić przejście od prototypu lub pomysłu do produkcji. Wymagane są: etap przed serią B, założenie firmy w ciągu ostatnich 10 lat, konto AWS na planie Paid Tier oraz albo nowy uczestnik Activate Credits, albo wniosek o większą pulę niż wcześniej otrzymana. Należy założyć Builder ID z adresem e-mail służbowym, uzupełnić profil oraz powiązać z nim konto AWS (odpowiedź w 5-10 dni roboczych); wnioskodawcy z tiers Portfolio muszą mieć Organization ID od dostawcy Activate, np. akceleratora, anioła inwestora lub funduszu venture capital.",
-    "summary_pl_source_hash": "e857e6d08d3967c2ceb3b4172fa5148e"
+    "summary_pl_source_hash": "e857e6d08d3967c2ceb3b4172fa5148e",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-43867d910bdf73fdce58",
@@ -5414,7 +5540,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program jest przeznaczony dla wysoko potencjalnych startupów, które budują i skalują swoje aplikacje w AI Data Cloud, gdzie dane stanowią kluczowy element produktu, wykorzystują sztuczną inteligencję i uczenie maszynowe oraz pracują z dużymi lub złożonymi zbiorami danych. Dotyczy to branż: dane, sztuczna inteligencja i uczenie maszynowe. Wybrane startupy otrzymują praktyczne wsparcie platformy Snowflake, bezpłatne kredyty na korzystanie z usług, doradztwo w zakresie wejścia na rynek, mentoring oraz introductions inwestorów i partnerów. Nabór ma charakter ciągły, a kwoty i terminy nie są określone.",
-    "summary_pl_source_hash": "97daac5e99695b83d3f9e16e537ad65d"
+    "summary_pl_source_hash": "97daac5e99695b83d3f9e16e537ad65d",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-43938ad15ebdf90607e2",
@@ -5737,7 +5872,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program Algolia Startup Program przyznaje nowym klientom Algolia kredyty o wartości $10,000 ważne przez 12 miesięcy wraz z najwyższej klasy wsparciem, ofertami partnerów, wczesnym dostępem do funkcji oraz społecznością założycieli. Program jest dostępny dla startupów działających krócej niż 7 lat, które zebrały łącznie mniej niż $15M finansowania, i wyłącznie dla nowych klientów Algolia. Nie kwalifikują się osoby, które są już płacącymi klientami Algolia, ani osoby, które wcześniej wykorzystały inny kod rabatowy.",
-    "summary_pl_source_hash": "eb0ccb90c039bc981d22a86508f80221"
+    "summary_pl_source_hash": "eb0ccb90c039bc981d22a86508f80221",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-456f1f8d048866a3cdcb",
@@ -6136,7 +6280,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program Claude for Startups oferuje wczesnym startupom budującym z użyciem Claude darmowe kredyty na Claude API oraz priorytetowe (najwyższe) limity użycia, a także społeczność i materiały. Do programu może dołączyć każdy wczesny founder lub startup, z finansowaniem VC lub bez; kredytów i dodatków mogą otrzymać wyłącznie firmy, które otrzymały finansowanie udziałowe od instytucjonalnego inwestora, zostały założone w ciągu ostatnich czterech lat i wcześniej nie korzystały z kredytów startupowych Anthropic. Należy mieć konto Claude Console, firmowy adres e-mail, własną stronę internetową oraz krótki opis budowanego produktu. Kredyty nie mogą być wykorzystywane na AWS Bedrock, Google Cloud Vertex AI ani innych platformach zewnętrznych.",
-    "summary_pl_source_hash": "c11ea4f01c19eb38c9b8877566a66a99"
+    "summary_pl_source_hash": "c11ea4f01c19eb38c9b8877566a66a99",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-5af308c00cc9e301026a",
@@ -6445,7 +6598,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Fundusze Europejskie dla Nowoczesnej Gospodarki to program Ministerstwa Funduszy i Polityki Regionalnej. Publikuje on aktualne nabory wniosków, harmonogramy oraz kryteria wyboru projektów dla wnioskodawców w ramach programu Fundusze Europejskie dla Nowoczesnej Gospodarki. Status jest OPEN, a szczegóły korzyści, kryteriów i terminów nie zostały podane.",
-    "summary_pl_source_hash": "7632d7e8df75e5bd2195a48200d007d9"
+    "summary_pl_source_hash": "7632d7e8df75e5bd2195a48200d007d9",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-624379aa53381d7a40b0",
@@ -6963,7 +7125,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program jest przeznaczony dla założycieli i startupów na etapie pomysłu lub MVP, z bootstrapem lub finansowaniem na poziomie pre-seed, seed lub Series A, w branży oprogramowania. Aby zakwalifikować się do podstawowego poziomu, startup powinien mieć mniej niż 7 lat i być na etapie Series A lub wcześniejszym, budować skalowalny produkt (skupiony na jednym produkcie lub usługi opartej na oprogramowaniu) oraz mieć aktywną stronę internetową i profil w LinkedIn. Uczestnicy otrzymują kredyty MongoDB Atlas, tokeny Voyage AI, ekspercką wiedzę techniczną, sesje z ekspertami i dedykowane wsparcie przy budowie i skalowaniu aplikacji gotowych do AI. Program współpracuje z funduszami VC, akceleratorami i inkubatorami — warto poprosić partnera o polecenie; osoby bez takiego partnera mogą zgłosić się bezpośrednio. Nie są uprawnione agencje i software house'y, a także osoby wcześniej przyjęte do tego programu. Otwarte zgłoszenia, bez podanego terminu.",
-    "summary_pl_source_hash": "52d4d6cb4f3ee316c54820d000526030"
+    "summary_pl_source_hash": "52d4d6cb4f3ee316c54820d000526030",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-6e68d6541342439afd43",
@@ -7302,7 +7473,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Advanced Innovation Challenges- Pilot przewiduje granty w formie ryczałtu: 300 000 EUR na etapie 1 oraz do 2,5 mln EUR na etapie 2, a także coaching, mentoring, szkolenia i networking w ramach EIC Business Acceleration Services. Mogą się z nim zgłosić startupy, MŚP oraz organizacje prowadzące badania (uczelnie, organizacje badawcze i technologiczne, w tym zespoły, indywidualni główni badacze i wynalazcy) jako pojedynczy podmiot prawny utworzony w państwie członkowskim lub kraju stowarzyszonym. Większe firmy, które nie kwalifikują się jako MŚP, nie mogą zgłaszać się jako pojedynczy podmiot prawny, a do naboru na etap 2 mogą zgłaszać się wyłącznie wnioski wybrane do finansowania na etapie 1. Status programu to CLOSED.",
-    "summary_pl_source_hash": "ac9cd25c90d87fb6f655e30e9118555a"
+    "summary_pl_source_hash": "ac9cd25c90d87fb6f655e30e9118555a",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-785ee92f4a58db281761",
@@ -7519,7 +7699,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program „Become a food startup” of EIT Food. Program jest skierowany do startupów spożywczych. Szczegóły dotyczące świadczeń, uprawnionych wnioskodawców oraz terminów nie zostały podane.",
-    "summary_pl_source_hash": "ea67da3c1204dfb81a059f0667f07a92"
+    "summary_pl_source_hash": "ea67da3c1204dfb81a059f0667f07a92",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-7a36898fdafd284beb9d",
@@ -7843,7 +8032,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program Microsoft for Startups oferuje startupom do $150,000 kredytów Microsoft Azure/Startup wraz z dostępem do najnowszych modeli AI i narzędzi deweloperskich, eksperckim doradztwem oraz dostępem do globalnej sieci klientów Microsoft. Program jest skierowany do founderów i startupów.",
-    "summary_pl_source_hash": "42fd037fe71b5bfb80edbaf7f9a049ba"
+    "summary_pl_source_hash": "42fd037fe71b5bfb80edbaf7f9a049ba",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-8711d4a6ada9b3d756d9",
@@ -8223,7 +8421,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "W ramach programu Startup Program startupy otrzymują do 100 000 EUR bezpłatnego kredytu chmurowego oraz konsultacje inżynierskie one-on-one. Program jest obecnie otwarty. Program obejmuje wsparcie w postaci kredytów chmurowych i mentoringu.",
-    "summary_pl_source_hash": "85e6ad706468ae81d4015c679ed8cd51"
+    "summary_pl_source_hash": "85e6ad706468ae81d4015c679ed8cd51",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-8a2c97e1dd49ea8f7e41",
@@ -8444,7 +8651,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": null,
-    "summary_pl_source_hash": "bf450f046f13ca7f2bfd22d659b1194e"
+    "summary_pl_source_hash": "bf450f046f13ca7f2bfd22d659b1194e",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-8c5a4f7697a348f96273",
@@ -8897,7 +9113,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program Modal for Startups jest przeznaczony dla startupów i firm na etapie wzrostu i skalowania, które pozyskały finansowanie VC na poziomie od rundy seed do rundy Series C lub późniejszej. Startupy z rundy seed do Series A mogą otrzymać bezpłatne kredyty na GPU i zasoby chmurowe, jeśli są nowym klientem Modal, zebrały dowolną kwotę finansowania VC od sieci partnerskich VC Modal lub pozyskały ponad 1 mln USD finansowania VC od jakiegokolwiek funduszu. Szybko rosnące, natywne dla AI firmy na etapie skalowania i od rundy Series B mogą skorzystać z dedykowanej oferty, jeśli zebrały ponad 30 mln USD finansowania VC albo są po rundzie Series B. Zaakceptowane startupy otrzymują tysiące bezpłatnych kredytów na obliczenia GPU/chmurowe, bezpośrednie wsparcie inżynierskie i wsparcie w sprzedaży ze strony Modal oraz dostęp do społeczności założycieli. Kredyty są przyznawane jednorazowo — po ich otrzymaniu na danym poziomie nie można złożyć ponownej aplikacji.",
-    "summary_pl_source_hash": "2fd1bb190c9af3f019f6459f873caef0"
+    "summary_pl_source_hash": "2fd1bb190c9af3f019f6459f873caef0",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-8f1ee367cc0431c336ea",
@@ -9129,7 +9354,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program Go2USA / Silicon Valley realizowany jest przez StartSmart CEE. W przekazanych danych nie podano szczegółów oferty, korzyści ani warunków kwalifikacji.",
-    "summary_pl_source_hash": "049bad94e3272636b5762a52985c774e"
+    "summary_pl_source_hash": "049bad94e3272636b5762a52985c774e",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-8fa4d667fe99dd84c4c4",
@@ -9495,7 +9729,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program Google for Startups Cloud Program pokrywa koszty Google Cloud i Firebase do $200,000 (do $350,000 dla startupów AI) w pierwszych dwóch latach uczestnictwa, a także zapewnia wsparcie produktowe i techniczne, dedykowanych mentorów oraz rabaty na Google Workspace. Mogą się zgłaszać startupy na dowolnym etapie finansowania. Wymagane są: konto GCP oraz Billing ID, publicznie dostępna strona firmowa, domena poczty firmowej zgodna ze stroną firmy oraz założenie firmy w ciągu 5 lat od złożenia wniosku (10 lat w przypadku Scale).",
-    "summary_pl_source_hash": "04840390491f2b9c80256f8d47c282b4"
+    "summary_pl_source_hash": "04840390491f2b9c80256f8d47c282b4",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-956968378189712ea4ce",
@@ -9888,7 +10131,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program oferuje jednorazowe dotacje w wysokości od 500 000 EUR do 1 000 000 EUR (70% kwalifikowalnego kosztu projektu) na okres do 2 lat, a także bezpłatne usługi Business Acceleration Services, coaching i mentoring oraz dostęp do EIC Accelerator Fast Track. Program jest skierowany do MŚP i firm (jednego beneficjenta: MŚP lub małego średniej wielkości przedsiębiorstwa) z krajów objętych rozszerzeniem Horizon Europe, działających na etapie przedgenerowania przychodów, w sektorze deep-tech. Kandydat musi posiadać innowację o wysokim potencjale, zdolną do tworzenia nowych rynków lub ich zaburzenia (technologia zwalidowana w laboratorium, co najmniej TRL 4), odpowiednie prawa własności intelektualnej zapewniające wolność działania i ochronę pomysłu, jasną wizję drogi do rynku wraz z kamieniami milowymi i mierzalnymi KPI oraz ambicję i zobowiązania do skalowania. Aplikacje od firm zarejestrowanych w innych krajach zostaną uznane za niekwalifikujące się. Termin składania wniosków: od 2027-05-05 do 2027-11-18.",
-    "summary_pl_source_hash": "b8675338853c14fb8242da857fdb106d"
+    "summary_pl_source_hash": "b8675338853c14fb8242da857fdb106d",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-9e2f3f5117724337c86d",
@@ -10301,7 +10553,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Ignite Next Scale-Up Program for Deep Tech Startups to europejski, niedyutujący program skalowania dla wczesnych startupów deep tech, który łączy doświadczonych ekspertów branżowych i mentorów-serialnych przedsiębiorców ze wsparciem ukierunkowanym na realizację POC-ów i pilotaży oraz dotarcie do rundy Series A. Program jest przeznaczony dla startupów na etapach od Pre-Seed do Series B (z optimum na późnym Seed), finansowanych przez VC, z poprawnym lub możliwym do naprawienia cap table, z potencjałem globalnym i potencjałem do objęcia pozycji lidera kategorii, z założycielami otwartymi na coaching i zaangażowanymi w rozwój, oraz z innowacjami opartymi na IP pochodzącymi z całej Europy. Dotyczy m.in. obszarów Silicon, Data Infra, New Paradigms, AI/ML/Computer Vision, Physical AI, Privacy & Security oraz DevTools & DevOps.",
-    "summary_pl_source_hash": "f9002995fd6270c0d049f3db403f7789"
+    "summary_pl_source_hash": "f9002995fd6270c0d049f3db403f7789",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-a18aa660612c3bb21b60",
@@ -10373,7 +10634,7 @@
     "evidence": [
       {
         "url": "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-2",
-        "authority": "OFFICIAL_PUBLIC",
+        "authority": "PRIMARY",
         "supports": [
           "application_deadline",
           "application_open_at",
@@ -10744,7 +11005,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Polska Agencja Rozwoju Przedsiębiorczości oferuje dofinansowanie pokrywające do 85% kosztów zakupu usług wspomagających rozwój działalności gospodarczej startupu, wynagrodzeń personelu projektu oraz zakupu środków trwałych, surowców lub materiałów, a także wartości niematerialnych i prawnych. Z dofinansowania wyłączone są usługi szkoleniowe. Program skierowany jest do mikro i małych spółek kapitałowych z siedzibą na obszarze makroregionu Polski Wschodniej, prowadzących działalność w formie spółki z ograniczoną odpowiedzialnością lub spółki akcyjnej. Wniosek o dofinansowanie należy złożyć za pośrednictwem systemu LSI opracowanego przez Polską Agencję Rozwoju Przedsiębiorczości, w terminie do 2026-12-10 (nabór otwiera się 2026-10-06).",
-    "summary_pl_source_hash": "48c6a6073884ec713af40b03437a7ea1"
+    "summary_pl_source_hash": "48c6a6073884ec713af40b03437a7ea1",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-a7943bc97b559e60c02b",
@@ -11136,7 +11406,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "ClimateLaunchpad oferuje bezpłatne bootcampy, coaching i mentoring, a także możliwość wystąpienia z pomysłem na poziomie krajowym, regionalnym oraz podczas globalnego Grand Final, co daje wiedzę, widoczność i networking z globalnymi partnerami. Program jest przeznaczony dla podmiotów na etapie pomysłu działających w obszarze rozwiązań klimatycznych, zrównoważonego rozwoju środowiskowego i zielonego biznesu. Aplikacja polega na zgłoszeniu pomysłu lub innowacji o oddziaływaniu na środowisko, a zgłoszenia są obecnie otwarte globalnie.",
-    "summary_pl_source_hash": "a7eb13550237620c1d8e46df3c76c5fe"
+    "summary_pl_source_hash": "a7eb13550237620c1d8e46df3c76c5fe",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-acb884579e690ad9cd66",
@@ -11557,7 +11836,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "HubSpot for Startups oferuje kwalifikującym się startupom produkty HubSpot Professional lub Enterprise z rabatem 30–90% w pierwszym roku. Wymagany jest etap finansowania Pre-seed, Seed lub Series A (ale nie Series B ani późniejszy) oraz powiązanie z zatwierdzonym partnerem HubSpot for Startups, zweryfikowany funding venture lub organizacją przedsiębiorczą wspierającą program. Rabat 90% przysługuje przy zatwierdzonym powiązaniu partnerskim lub zweryfikowanym finansowaniu venture, a 30% przy udziale w zatwierdzonej organizacji przedsiębiorczej. W kolejnych latach obowiązuje obniżona cena, a program zapewnia także specjalistyczne zasoby, szkolenia oraz ekskluzywną społeczność założycieli. Cennik dotyczy wyłącznie nowych produktów na poziomie Professional lub Enterprise i wymaga zobowiązania na okres roku.",
-    "summary_pl_source_hash": "4093e240a27c6d0bfb3e8e6cca989fab"
+    "summary_pl_source_hash": "4093e240a27c6d0bfb3e8e6cca989fab",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-af424aba4e2f55e25c36",
@@ -11902,7 +12190,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program Atlassian for Startups oferuje kwalifikującym się startupom produkty Atlassian Cloud (Jira, Confluence, Loom, Jira Service Management, Customer Service Management, Jira Product Discovery, Bitbucket) bez opłat na 12 miesięcy dla maksymalnie 50 użytkowników; w przypadku Jira Product Discovery obejmuje to 10 darmowych użytkowników twórców i nieograniczoną liczbę współpracowników. Firma nie może być obecnym płatnym klientem Atlassian, powinna być finansowana przez VC lub powiązana z akceleratorem/incubatorem będącym partnerem, a pozyskane finansowanie zewnętrzne nie może przekraczać US$10 million. Aplikacje w ramach programu Atlassian Marketplace nie są obecnie objęte ofertą. Zespół Atlassian weryfikuje każdą aplikację i może poprosić o dodatkowe informacje, np. dowód finansowania (np. profil w Crunchbase lub Pitchbook).",
-    "summary_pl_source_hash": "dc5b326ea024658302ab6b2494f68f91"
+    "summary_pl_source_hash": "dc5b326ea024658302ab6b2494f68f91",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-b4bd8df39a871cd22829",
@@ -12294,7 +12591,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program DigitalOcean Startups oferuje przyjętym startupom do 12 miesięcy kredytów DigitalOcean oraz wybrane pakiety kredytów GPU, jedno na jedno konsultacje z product managerami i inżynierami DigitalOcean, 15 miesięcy bezpłatnego wsparcia w standardowym planie, rabaty na narzędzia deweloperskie i widoczność wśród dużej społeczności deweloperów dzięki DigitalOcean Marketplace. Priorytet mają startupy AI-native. Startup musi mieć stronę firmową i adres e-mail zgodny z tą stroną, zarejestrowane konto zespołu DigitalOcean na adresie firmowym (nie osobistym), pozyskał kwotę nie większą niż $10m oraz nie korzystał wcześniej z kredytów DigitalOcean — program jest przeznaczony dla nowych startupów. Startupy świadczące usługi (konsulting, tworzenie stron i aplikacji, agencje marketingowe itp.) nie kwalifikują się, a kredyty nie są przenoszalne.",
-    "summary_pl_source_hash": "dca710e2f1768d5cff9368ed2da7e6fb"
+    "summary_pl_source_hash": "dca710e2f1768d5cff9368ed2da7e6fb",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-bdba59d0cfd86b5e29dc",
@@ -12644,7 +12950,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program jest przeznaczony dla zespołów i startupów na etapach od pomysłu i MVP, przez wzrost, po skalowanie, na dowolnym etapie finansowania. Uprawnione zespoły otrzymują do 30 000 USD w ramach Flexible Commitment Amount, dostęp do pakietu Enterprise oraz wsparcie dedykowane startupom przy budowaniu i skalowaniu na Vercel. Nabór ma charakter ciągły, a termin zgłoszeń nie został podany.",
-    "summary_pl_source_hash": "3ad71d768243c572875e1a26ad778d9b"
+    "summary_pl_source_hash": "3ad71d768243c572875e1a26ad778d9b",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-c0c6e547862c00698f18",
@@ -13006,7 +13321,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "NVIDIA Inception Program jest przeznaczony dla startupów i można się do niego zgłosić niezależnie od aktualnego etapu finansowania; nie ma opłat aplikacyjnych, terminów ani kohort. Przyjęte startupy otrzymują dostęp do świadczeń programu, m.in. kuratorowanego networkingu z czołowymi funduszami VC i kierownictwem NVIDIA, zasięgu marki i rynku, możliwości wejścia na rynek, spersonalizowanego wsparcia zespołu programu, sesji powitalnych oraz preferencyjnych cen na wybrane produkty NVIDIA klasy enterprise. Aby zachować uprawnienia do świadczeń i szans, należy regularnie aktualizować dane o produkcie i firmie.",
-    "summary_pl_source_hash": "31eb58dec235e5e2dd49daea56faa744"
+    "summary_pl_source_hash": "31eb58dec235e5e2dd49daea56faa744",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-c0ccf0b5ef591866e458",
@@ -13293,7 +13617,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Twilio Startups zapewnia firmom na wczesnym etapie bezpłatne konto Twilio z kredytami próbnymi, a także bezpłatne materiały edukacyjne, tutoriale, dokumentację i filmy w Developer Hub, potrzebne do budowania produktów na Twilio. Program nie przewiduje obecnie dodatkowych kredytów dla startupów.",
-    "summary_pl_source_hash": "6038f504111cd023ce134154e8acd513"
+    "summary_pl_source_hash": "6038f504111cd023ce134154e8acd513",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-c2cc45310827b1692aea",
@@ -13622,7 +13955,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "EIT Health Deep Tech Venture Builder (DTVB) Programme Call 2025 to program finansowania, mentoringu i szkoleń skierowany do startupów i MŚP z branży MedTech oraz Digital Health. Zakwalifikowane konsorcja projektowe otrzymują finansowanie EIT Health wraz z usługami Venture Builder, godzinami mentoringu oraz szkoleniami EIT Health Academy realizowanymi w poszczególnych fazach programu DTVB. Warunkiem udziału jest wspólne ukończenie przez co najmniej dwóch członków zespołu wszystkich modułów szkoleniowych. W każdej z faz programu DTVB obowiązkowe jest 30% własnego współfinansowania. Podmioty szwajcarskie nie są bezpośrednio uprawnione do otrzymania finansowania EIT jako część wybranego konsorcjum projektowego, a wskazane węgierskie instytucje o statusie \"public trust foundations\" nie są obecnie uprawnione do finansowania w ramach programów Horizon Europe i Erasmus. Termin zakończenia naboru: 2024-12-16 (status: zamknięty).",
-    "summary_pl_source_hash": "e3f745ca724387201ab6fea1f3757956"
+    "summary_pl_source_hash": "e3f745ca724387201ab6fea1f3757956",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-c9dde8509c40a443dd6d",
@@ -13959,7 +14301,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "PostHog for Startups daje kwalifikującym się startupom $50 000 kredytów w platformie PostHog na 12 miesięcy, $12 000 świadczeń od partnerów (Incident.io, Speakeasy, Depot) oraz ekskluzywne gadżety PostHog. Firma musi mieć mniej niż 2 lat, zebrać poniżej $5m finansowania, założyć konto od Jan 1st 2023 i korzystać z domeny firmowej; aplikacja wymaga konta na płatnym planie PostHog (opłaty naliczane tylko za zużycie). Zgłoszenia z adresów osobistych, np. gmail.com lub outlook.com, nie są akceptowane, a program nie łączy się z osobną ofertą dla YC, dostępną w Bookface.",
-    "summary_pl_source_hash": "1dc32a9a24f369bdf7d6cf647591275c"
+    "summary_pl_source_hash": "1dc32a9a24f369bdf7d6cf647591275c",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-ca47393b17b50d20f52d",
@@ -14309,7 +14660,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "ESA BIC Poland wspiera założycieli i startupy z sektora kosmicznego, zapewniając do 50 000 EUR finansowania (plus do 100 000 EUR BOOST dla 2 startupów rocznie), do 80h wsparcia ekspertów technicznych, do 50h wsparcia w rozwoju biznesu i mentoringu, do 10h doradztwa prawnego, przestrzeń biurową, prawo do używania znaku ESA BIC, dostęp do międzynarodowej sieci ESA BIC oraz promocję międzynarodową. Termin składania wniosków upływa 2026-10-23.",
-    "summary_pl_source_hash": "e7bfd993f4ca1fca9386297e6f64583e"
+    "summary_pl_source_hash": "e7bfd993f4ca1fca9386297e6f64583e",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-cf2ef786e5a533c2dd52",
@@ -14616,7 +14976,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program oferuje finansowanie podmiotom, które podejmą współpracę z EIT Health jako biuro transferu technologii lub organizacja wspierająca przedsiębiorczość. Celem wsparcia jest przyspieszenie komercjalizacji badań naukowych, a warunkiem udziału jest współpraca z EIT Health na rzecz komercjalizacji wyników badań.",
-    "summary_pl_source_hash": "fa5e338fa8bb58ef905a4b98f28df34c"
+    "summary_pl_source_hash": "fa5e338fa8bb58ef905a4b98f28df34c",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-cff813591475d7f26c48",
@@ -14942,7 +15311,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Render for Startups przyznaje startupom kredyty chmurowe od $500 do $100K, w zależności od tieru i etapu finansowania, a także materiały wdrożeniowe dedykowane startupom oraz, na poziomie AI, sesję wdrożenia i migracji 1:1. Program jest dla nowych klientów i wymaga rundy seed (min. $25K), działalności krótszej niż 4 lata, zebrania poniżej $50M oraz etapu Series A lub wcześniejszego.",
-    "summary_pl_source_hash": "71864c3cbf4c7add7eab5af54df147af"
+    "summary_pl_source_hash": "71864c3cbf4c7add7eab5af54df147af",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-d616a1966077080c693e",
@@ -15307,7 +15685,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Pinecone for Startups daje bezpłatny dostęp do Standard Tier i Pro Support, a także kredyty na zużycie i rabaty. Mogą z niego korzystać firmy na etapach POC, MVP, przed przychodem, po pierwszym przychodzie i wzrostu, finansowane z własnych środków lub na etapach pre-seed, seed i Series A, w obszarach AI/ML, wyszukiwania, infrastruktury chmurowej i aplikacji GenAI.",
-    "summary_pl_source_hash": "936ac022ffc8c0b14ac8a4ffa76002f5"
+    "summary_pl_source_hash": "936ac022ffc8c0b14ac8a4ffa76002f5",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-e1030977dde957f658d8",
@@ -15736,7 +16123,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program jest przeznaczony dla założycieli, zespołów i wczesnych startupów B2B na etapie MVP, które chcą zwalidować swój produkt, w branżach: cyberbezpieczeństwo, obronność i bezpieczeństwo, fintech, SaaS, proptech, zrównoważony rozwój i Web3. Uczestnicy otrzymują wejśnieek inwestycyjny, dostęp do inwestycji międzynarodowych oraz do finansowania, mentoring ukierunkowany na konkretne branże oraz społeczność założycieli i inwestorów w regionie CEE i Europie. Program kierowany jest do założycieli i zespołów dopiero startujących, a także do globalnych funduszy VC i akceleratorów.",
-    "summary_pl_source_hash": "d6827cc0058464233631585372af5eff"
+    "summary_pl_source_hash": "d6827cc0058464233631585372af5eff",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-f05c86bec5022273bbe9",
@@ -16178,7 +16574,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program oferuje dotację do 2,5 mln EUR oraz inwestycję kapitałową w wysokości od 1 do 10 mln EUR, w formule mieszanej (blended) lub wyłącznie inwestycyjnej. Wsparcie obejmuje także coachingu, mentoring, szkolenia oraz dostęp do partnerów i ekosystemu w ramach EIC Business Acceleration Services. Mogą się o nie ubiegać osoby fizyczne oraz firmy na etapie skalowania, w dowolnym obszarze technologii, w tym w technologiach obronnych i podwójnego zastosowania. Program ma status ciągłego naboru (rolling).",
-    "summary_pl_source_hash": "b6e29c2d7f8b198a43d92bb59470ad0e"
+    "summary_pl_source_hash": "b6e29c2d7f8b198a43d92bb59470ad0e",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-f0cb1e3765e278449b52",
@@ -16630,7 +17035,16 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "Program jest przeznaczony dla startupów, które są prawnie zarejestrowane w państwie członkowskim UE albo w kraju stowarzyszonym z Horizon Europe uprawnionym do działań Pillar III, mają produkt na poziomie TRL 7 lub wyższym oraz zakończyły co najmniej jedną rundę finansowania. Wybrane europejskie startupy otrzymują jednorazowo 2 200 EUR na pokrycie podróży i zakwaterowania, a także trzymiesięczny hybrydowy program wejścia na rynek. Program łączy je z wiodącymi korporacjami z Gunma w Japonii, zapewniając szkolenia, spotkania 1:1 z korporacjami, stacjonarny Immersion Lab w Japonii oraz pomoc w określeniu ścieżki Proof-of-Concept lub pilota. Każde zgłoszenie musi odpowiadać na jeden wyzwanie innowacyjne jednej z sześciu uczestniczących korporacji. Nabór był prowadzony od 2026-08-03 do 2026-09-03 i ma status zamknięty, a zakres tematyczny obejmuje m.in. agri-food, dywersyfikację białek, odporne rolnictwo, biotechnologię agri-food, zrównoważone opakowania i obiegowe tworzywa, okulary i okulary medyczne, elektrolizę wody oraz wychwytywanie elektrochemiczne CO2, a także inteligentną produkcję.",
-    "summary_pl_source_hash": "db22c706184886213a789ce04610f1de"
+    "summary_pl_source_hash": "db22c706184886213a789ce04610f1de",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   },
   {
     "opportunity_id": "opp-f9432888dbf5e00a6527",
@@ -17009,6 +17423,15 @@
       "version": "public-product-v2-enrichment-1.0"
     },
     "summary_pl": "GitHub for Startups oferuje kwalifikującym się startupom powiązanym z partnerem programu $10,000 kredytów na platformę GitHub, ważnych do 12 miesięcy w zakresie GitHub Enterprise (w tym Copilot i Advanced Security), a także dopasowane wdrożenie, office hours oraz ścieżkę nauki. Startupy muszą być powiązane z zatwierdzonym partnerem oraz otrzymać finansowanie zewnętrzne (do rundy Series B lub wcześniej) — kredyty bezudziałowe nie spełniają tego warunku. Muszą być ponadto nowe dla GitHub Enterprise, czyli nie korzystać z planu GitHub Enterprise w ciągu ostatnich sześciu miesięcy, ani nie otrzymywać wcześniej kredytów ani licencji GitHub Enterprise. Program obsługuje wyłącznie konta Enterprise Cloud na GitHub.com; nie dotyczy instancji GitHub Enterprise Server ani przedsiębiorstw z Data Residency, ofertę można wykorzystać tylko raz, a wcześniejsze otrzymanie kredytów GitHub Enterprise przez Microsoft lub w ramach GitHub for Startups wyklucza kolejną przyznę.",
-    "summary_pl_source_hash": "de52f4b609dac56c8fc6038d1d952dc6"
+    "summary_pl_source_hash": "de52f4b609dac56c8fc6038d1d952dc6",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-01T12:01:31.214743+00:00",
+      "as_of": "2026-10-01T12:41:10.737780+00:00",
+      "warning": false
+    }
   }
 ]

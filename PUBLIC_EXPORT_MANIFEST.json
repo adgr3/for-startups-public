@@ -9,7 +9,6 @@
     "apps/web/package.json",
     "apps/web/public/404.html",
     "apps/web/public/favicon.svg",
-    "apps/web/public/robots.txt",
     "apps/web/src/components/OpportunityCard.astro",
     "apps/web/src/data/catalog.json",
     "apps/web/src/data/meta.json",
@@ -20,12 +19,14 @@
     "apps/web/src/pages/historia.astro",
     "apps/web/src/pages/index.astro",
     "apps/web/src/pages/opportunities/[slug].astro",
+    "apps/web/src/pages/robots.txt.ts",
     "apps/web/src/pages/sitemap.xml.ts",
+    "deploy/PUBLIC_README.md",
     "deploy/README.md",
     "deploy/public.gitignore",
     "schemas/opportunity.schema.json"
   ],
-  "file_count": 24,
+  "file_count": 25,
   "catalog": {
     "item_count": 47,
     "slugs": 47,
