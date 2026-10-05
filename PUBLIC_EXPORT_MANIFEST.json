@@ -28,20 +28,20 @@
   ],
   "file_count": 25,
   "catalog": {
-    "item_count": 47,
-    "slugs": 47,
-    "summary_pl": 46,
+    "item_count": 54,
+    "slugs": 54,
+    "summary_pl": 53,
     "status_counts": {
-      "OPEN": 22,
-      "ROLLING": 14,
-      "CLOSED": 4,
-      "UNKNOWN": 5,
-      "UPCOMING_CONFIRMED": 2
+      "OPEN": 25,
+      "ROLLING": 15,
+      "CLOSED": 7,
+      "UNKNOWN": 4,
+      "UPCOMING_CONFIRMED": 3
     }
   },
   "build": {
     "install_exit": 0,
     "build_exit": 0,
-    "pages": 49
+    "pages": 56
   }
 }
