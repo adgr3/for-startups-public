@@ -366,8 +366,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -882,45 +882,45 @@
       "last_verified_at": "2026-10-22T16:55:21.146807+00:00",
       "fields": {
         "application_deadline": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "application_open_at": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "lifecycle_status": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "benefit_amount": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "applicant_eligibility": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         }
       },
       "counts": {
-        "FRESH": 5
+        "AGING": 5
       },
-      "worst_state": "FRESH"
+      "worst_state": "AGING"
     },
     "summary_pl": null,
     "summary_pl_source_hash": "8b309447161b4e4eaf26a3e8a5d5724d",
     "freshness": {
       "version": "freshness-v1",
-      "state": "FRESH",
-      "rule": "age<=3d",
-      "age_days": 2,
+      "state": "AGING",
+      "rule": "age>3d",
+      "age_days": 4,
       "last_checked_at": "2026-10-22T16:55:21.146807+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -1285,8 +1285,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -1625,8 +1625,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -1978,8 +1978,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -2396,8 +2396,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -2883,8 +2883,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -3315,8 +3315,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -3660,8 +3660,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -4373,45 +4373,45 @@
       "last_verified_at": "2026-10-22T16:59:31.674729+00:00",
       "fields": {
         "application_deadline": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "application_open_at": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "lifecycle_status": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "benefit_amount": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "applicant_eligibility": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         }
       },
       "counts": {
-        "FRESH": 5
+        "AGING": 5
       },
-      "worst_state": "FRESH"
+      "worst_state": "AGING"
     },
     "summary_pl": "IFIRMA Startup Contest 2026 to konkurs prowadzony przez Silesian Startup Foundation, w którym mogą startować podmioty prowadzące działalność gospodarczą zarejestrowaną w Polsce, założone nie wcześniej niż 1 stycznia 2021 roku. Startup musi posiadać co najmniej działające MVP, które można przetestować z użytkownikami, albo produkt lub usługę funkcjonującą już na rynku, oraz wykorzystywać AI jako istotny element rozwiązania (zarówno startupy AI-native, jak i AI-enabled). Wszyscy finaliści otrzymują promocję na stronie konkursu i w mediach oraz publikację po konkursie, a nagroda główna to 5 000 zł finansowane przez IFIRMA, dostęp VIP na konferencję, udział w Executive Meetup, pakiety biznesowe i e-commerce oraz 2h mentoringu biznesowego. Zgłoszenia przyjmowane są od 2026-09-07 do 2026-10-04, a każdy uczestnik może przesłać jedno zgłoszenie konkursowe.",
     "summary_pl_source_hash": "c077328797dd43a9863b59c1afd2184c",
     "freshness": {
       "version": "freshness-v1",
-      "state": "FRESH",
-      "rule": "age<=3d",
-      "age_days": 2,
+      "state": "AGING",
+      "rule": "age>3d",
+      "age_days": 4,
       "last_checked_at": "2026-10-22T16:59:31.674729+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -4674,8 +4674,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -5300,8 +5300,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -5668,8 +5668,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -5953,8 +5953,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -6792,8 +6792,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -7328,8 +7328,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -7646,45 +7646,45 @@
       "last_verified_at": "2026-10-22T16:55:21.146807+00:00",
       "fields": {
         "application_deadline": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "application_open_at": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "lifecycle_status": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "benefit_amount": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "applicant_eligibility": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         }
       },
       "counts": {
-        "FRESH": 5
+        "AGING": 5
       },
-      "worst_state": "FRESH"
+      "worst_state": "AGING"
     },
     "summary_pl": null,
     "summary_pl_source_hash": "484f35b809c1d15699cba3d23e79a035",
     "freshness": {
       "version": "freshness-v1",
-      "state": "FRESH",
-      "rule": "age<=3d",
-      "age_days": 2,
+      "state": "AGING",
+      "rule": "age>3d",
+      "age_days": 4,
       "last_checked_at": "2026-10-22T16:55:21.146807+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -8295,8 +8295,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -8803,8 +8803,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -9570,8 +9570,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -9950,8 +9950,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -10308,8 +10308,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -10875,8 +10875,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -11263,8 +11263,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -11529,8 +11529,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -11803,8 +11803,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -12257,8 +12257,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -12712,8 +12712,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -12982,8 +12982,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -13635,8 +13635,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -13916,8 +13916,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -14409,8 +14409,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -14851,8 +14851,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -15313,8 +15313,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -15850,8 +15850,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -17573,8 +17573,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -17963,45 +17963,45 @@
       "last_verified_at": "2026-10-22T16:55:21.146807+00:00",
       "fields": {
         "application_deadline": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "application_open_at": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "lifecycle_status": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "benefit_amount": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "applicant_eligibility": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         }
       },
       "counts": {
-        "FRESH": 5
+        "AGING": 5
       },
-      "worst_state": "FRESH"
+      "worst_state": "AGING"
     },
     "summary_pl": null,
     "summary_pl_source_hash": "9a20c17f34ba93104ae51f704f1df084",
     "freshness": {
       "version": "freshness-v1",
-      "state": "FRESH",
-      "rule": "age<=3d",
-      "age_days": 2,
+      "state": "AGING",
+      "rule": "age>3d",
+      "age_days": 4,
       "last_checked_at": "2026-10-22T16:55:21.146807+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -18019,7 +18019,7 @@
       "MENTORING",
       "TRAINING"
     ],
-    "status": "OPEN",
+    "status": "CLOSED",
     "geography": {
       "scope": "POLAND",
       "eligible_countries": [],
@@ -18721,7 +18721,7 @@
       "source_kind": "EVIDENCE"
     },
     "lifecycle": {
-      "status": "OPEN",
+      "status": "CLOSED",
       "basis": "AUTHORITATIVE_PAGE",
       "announced": false,
       "base_status": "OPEN",
@@ -18748,49 +18748,49 @@
     },
     "field_freshness": {
       "version": "field-freshness-v2.3",
-      "recheck_cadence": "DAILY",
+      "recheck_cadence": "WEEKLY",
       "last_verified_at": "2026-10-22T16:55:21.146807+00:00",
       "fields": {
         "application_deadline": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "application_open_at": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "lifecycle_status": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "benefit_amount": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         },
         "applicant_eligibility": {
-          "state": "FRESH",
-          "rule": "age<=72h",
+          "state": "AGING",
+          "rule": "age>72h",
           "retrieval_failed": false
         }
       },
       "counts": {
-        "FRESH": 5
+        "AGING": 5
       },
-      "worst_state": "FRESH"
+      "worst_state": "AGING"
     },
     "summary_pl": null,
-    "summary_pl_source_hash": "3c26d74eadfa33071b4932c0ce5f8098",
+    "summary_pl_source_hash": "321eca7cdfb82d18940b301ea660f492",
     "freshness": {
       "version": "freshness-v1",
-      "state": "FRESH",
-      "rule": "age<=3d",
-      "age_days": 2,
+      "state": "AGING",
+      "rule": "age>3d",
+      "age_days": 4,
       "last_checked_at": "2026-10-22T16:55:21.146807+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -19230,8 +19230,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -19700,8 +19700,272 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "warning": false
+    }
+  },
+  {
+    "opportunity_id": "opp-ad62cae38f4d41f89d8f",
+    "title": "1 0 obj",
+    "provider": {
+      "name": "UNKNOWN",
+      "provider_type": "UNKNOWN"
+    },
+    "canonical_url": "https://www.lzp.gov.lv/lv/media/15217/download?attachment=",
+    "application_url": null,
+    "opportunity_types": [
+      "INVESTOR_ACCESS"
+    ],
+    "status": "UNKNOWN",
+    "geography": {
+      "scope": "UNKNOWN",
+      "eligible_countries": [],
+      "excluded_countries": [],
+      "target_markets": []
+    },
+    "benefits": [
+      {
+        "benefit_type": "INVESTOR_ACCESS",
+        "amount_min": null,
+        "amount_max": null,
+        "currency": null,
+        "description": null
+      }
+    ],
+    "eligibility": {
+      "applicant_types": [],
+      "end_beneficiary_types": [],
+      "legal_forms": [],
+      "company_stages": [],
+      "funding_stages": [],
+      "company_age_min_months": null,
+      "company_age_max_months": null,
+      "external_funding_required": "UNKNOWN",
+      "mvp_required": "UNKNOWN",
+      "revenue_required": "UNKNOWN",
+      "for_profit_required": "UNKNOWN",
+      "sectors": [],
+      "requirements_text": [],
+      "exclusions_text": []
+    },
+    "economics": {
+      "application_fee": "UNKNOWN",
+      "equity_required": "UNKNOWN",
+      "own_contribution_required": "UNKNOWN"
+    },
+    "dates": {
+      "announced_at": null,
+      "application_open_at": null,
+      "application_deadline_at": null,
+      "programme_start_at": null,
+      "programme_end_at": null
+    },
+    "evidence": [
+      {
+        "url": "https://www.lzp.gov.lv/lv/media/15217/download?attachment=",
+        "authority": "OFFICIAL_PUBLIC",
+        "supports": [
+          "benefit_types",
+          "canonical_url",
+          "title"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "PARTIALLY_VERIFIED",
+      "confidence": "HIGH",
+      "basis": "EVIDENCE_COVERAGE",
+      "last_checked_at": null,
+      "last_verified_at": null
+    },
+    "projection": {
+      "projector_version": "opportunity-projector-v0.2",
+      "canonical": {
+        "canonical_id": "opp-ad62cae38f4d41f89d8f",
+        "identity_key": "url:https://www.lzp.gov.lv/lv/media/15217/download?attachment=",
+        "version": 1,
+        "status": "UNKNOWN",
+        "created_at": "2026-10-26T19:35:26.982179+00:00",
+        "updated_at": "2026-10-26T19:35:26.982179+00:00",
+        "closed_at": null,
+        "promoter_version": "canonical-promoter-v0.1"
+      },
+      "aliases": {
+        "urls": [
+          "https://www.lzp.gov.lv/lv/media/15217/download?attachment="
+        ],
+        "provider_titles": []
+      },
+      "unknown_fields": [
+        "application_deadline",
+        "application_open_at",
+        "application_url",
+        "benefit_summary",
+        "company_stage",
+        "eligibility",
+        "funding_stage",
+        "geography",
+        "legal_forms",
+        "lifecycle_status",
+        "provider_name",
+        "sector"
+      ],
+      "canonical_unknown_fields": [
+        "application_deadline",
+        "application_open_at",
+        "application_url",
+        "benefit_summary",
+        "company_stage",
+        "eligibility",
+        "funding_stage",
+        "geography",
+        "legal_forms",
+        "lifecycle_status",
+        "provider_name",
+        "sector"
+      ],
+      "history_versions": [
+        1
+      ],
+      "evidence_urls": [
+        "https://www.lzp.gov.lv/lv/media/15217/download?attachment="
+      ],
+      "config_references": [],
+      "field_provenance": {
+        "benefit_types": [
+          {
+            "candidate_id": "candidate-567fd82b0134fd3e1c60",
+            "decision_id": "decision-1c4e614cc7704d32d9da",
+            "source_id": "essh_pilot_2027_ncp_corr",
+            "version": 1,
+            "applied_at": "2026-10-26T19:35:26.982179+00:00",
+            "evidence": [
+              {
+                "reference": "page.line",
+                "quote": "(��: \u0002�\u0000���\u0000��׹k�\u0012o�Exo��y��\u0000��kܵ�� 7��� �$Ҍ��=�?�'\u0019�u�t\u0001 Ҥ\u0010��p�2k����ܼ�)\u0018��\u0005'\u0003һ\u0012\u0001�3�R�\u0007 �M��-���VS�����4���ME\u0004���k:*}�Hd*Ү>t\u0018=?Z �\u001bP��\u0011�y.\u001b#�\u0006�o\u0013H���b� *�\u0000�\"���Iģ��PRV=\u000e�� B�+�w� ��`��f�M6�m-٭����؟_c]\u0014 %���a�#�˟�@\u001b4Vck�b���>�\u001b�*��)�@D\u0010�!�\u0005\u0000n�"
+              }
+            ]
+          }
+        ],
+        "canonical_url": [
+          {
+            "candidate_id": "candidate-567fd82b0134fd3e1c60",
+            "decision_id": "decision-1c4e614cc7704d32d9da",
+            "source_id": "essh_pilot_2027_ncp_corr",
+            "version": 1,
+            "applied_at": "2026-10-26T19:35:26.982179+00:00",
+            "evidence": [
+              {
+                "reference": "page.url",
+                "quote": "https://www.lzp.gov.lv/lv/media/15217/download?attachment"
+              }
+            ]
+          }
+        ],
+        "title": [
+          {
+            "candidate_id": "candidate-567fd82b0134fd3e1c60",
+            "decision_id": "decision-1c4e614cc7704d32d9da",
+            "source_id": "essh_pilot_2027_ncp_corr",
+            "version": 1,
+            "applied_at": "2026-10-26T19:35:26.982179+00:00",
+            "evidence": [
+              {
+                "reference": "page.title",
+                "quote": "1 0 obj"
+              }
+            ]
+          }
+        ]
+      },
+      "provenance": [
+        {
+          "decision_id": "decision-1c4e614cc7704d32d9da",
+          "candidate_id": "candidate-567fd82b0134fd3e1c60",
+          "classification_id": "bootstrap-classification-a6891feae57f1428a64f",
+          "event_id": "inventory-07e7839154081e38e626",
+          "source_id": "essh_pilot_2027_ncp_corr",
+          "action": "CREATE",
+          "decision": "CREATE_CANONICAL",
+          "version": 1,
+          "candidate_sha256": "92ab5aa7ffc514226a10aaba11db0451928d9a202b8f684aca957cbdac35d91c",
+          "applied_at": "2026-10-26T19:35:26.982179+00:00"
+        }
+      ],
+      "source_kind": "EVIDENCE"
+    },
+    "lifecycle": {
+      "status": "UNKNOWN",
+      "basis": "NONE",
+      "announced": false,
+      "base_status": "UNKNOWN",
+      "opens_at": null,
+      "opens_at_precision": "NONE",
+      "closes_at": null,
+      "closes_at_precision": "NONE",
+      "content_kind": "OPPORTUNITY",
+      "is_signal": false,
+      "in_opportunity_feed": true,
+      "lifecycle_engine": "lifecycle-v2.3"
+    },
+    "timestamps": {
+      "discovered_at": "2026-10-26T19:35:26.982179+00:00",
+      "last_changed_at": "2026-10-26T19:35:26.982179+00:00",
+      "last_checked_at": null,
+      "last_verified_at": null,
+      "opens_at": null,
+      "closes_at": null
+    },
+    "slug": "1-0-obj-91e5937b",
+    "enrichment": {
+      "version": "public-product-v2-enrichment-1.0"
+    },
+    "field_freshness": {
+      "version": "field-freshness-v2.3",
+      "recheck_cadence": "MONTHLY",
+      "last_verified_at": null,
+      "fields": {
+        "application_deadline": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "application_open_at": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "lifecycle_status": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "benefit_amount": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "applicant_eligibility": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        }
+      },
+      "counts": {
+        "UNKNOWN": 5
+      },
+      "worst_state": "UNKNOWN"
+    },
+    "summary_pl": null,
+    "summary_pl_source_hash": "3e04415b2c263f5e7b5e217214edf119",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -20180,8 +20444,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -20621,8 +20885,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -21098,8 +21362,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -21596,8 +21860,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -22024,8 +22288,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -22402,8 +22666,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -23012,8 +23276,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -23398,8 +23662,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -23797,8 +24061,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -24153,8 +24417,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -24764,8 +25028,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -25178,8 +25442,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -26038,8 +26302,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -26529,8 +26793,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   },
@@ -27030,9 +27294,9 @@
       "version": "freshness-v1",
       "state": "STALE",
       "rule": "age>14d",
-      "age_days": 19,
+      "age_days": 21,
       "last_checked_at": "2026-10-05T16:06:18.033770+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": true
     }
   },
@@ -27519,8 +27783,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-25T10:02:52.877646+00:00",
-      "as_of": "2026-10-25T10:02:53.040291+00:00",
+      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
+      "as_of": "2026-10-26T19:39:25.801341+00:00",
       "warning": false
     }
   }
