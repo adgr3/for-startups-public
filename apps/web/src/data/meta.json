@@ -1,13 +1,13 @@
 {
-  "digest": "1e6ddef0a35e4d999038ff5a2dc2802bc8c5f5dc48f0280cc2c91d86d3caf3bd",
-  "generated_at": "2026-10-26T19:39:25.639153+00:00",
-  "item_count": 57,
+  "digest": "9db444598c16ad8ebda72d8dfb1cc9d0c68b8d78af2e82e2afafc3a57b4ef323",
+  "generated_at": "2026-10-28T09:27:27.600039+00:00",
+  "item_count": 60,
   "status_counts": {
-    "OPEN": 21,
-    "CLOSED": 10,
+    "OPEN": 22,
+    "CLOSED": 11,
     "ROLLING": 18,
     "UNKNOWN": 7,
-    "UPCOMING_CONFIRMED": 1
+    "UPCOMING_CONFIRMED": 2
   },
   "source": "prod-pipeline-catalog-current",
   "site_url": "https://for-startups.pages.dev",

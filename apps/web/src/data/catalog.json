@@ -366,8 +366,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -918,9 +918,9 @@
       "version": "freshness-v1",
       "state": "AGING",
       "rule": "age>3d",
-      "age_days": 4,
+      "age_days": 5,
       "last_checked_at": "2026-10-22T16:55:21.146807+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -1285,8 +1285,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -1625,8 +1625,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -1978,8 +1978,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -2396,8 +2396,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -2883,8 +2883,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -3315,8 +3315,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -3660,8 +3660,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -4409,9 +4409,9 @@
       "version": "freshness-v1",
       "state": "AGING",
       "rule": "age>3d",
-      "age_days": 4,
+      "age_days": 5,
       "last_checked_at": "2026-10-22T16:59:31.674729+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -4674,8 +4674,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -5300,8 +5300,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -5668,8 +5668,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -5953,8 +5953,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -6100,8 +6100,7 @@
       ],
       "config_references": [
         "source.categories",
-        "source.geography",
-        "source.name"
+        "source.geography"
       ],
       "field_provenance": {
         "benefit_summary": [
@@ -6792,8 +6791,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -7328,8 +7327,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -7682,9 +7681,9 @@
       "version": "freshness-v1",
       "state": "AGING",
       "rule": "age>3d",
-      "age_days": 4,
+      "age_days": 5,
       "last_checked_at": "2026-10-22T16:55:21.146807+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -8295,8 +8294,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -8435,7 +8434,6 @@
         "https://www.algolia.com/industries/startups"
       ],
       "config_references": [
-        "source.categories",
         "source.geography"
       ],
       "field_provenance": {
@@ -8803,8 +8801,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -8956,7 +8954,6 @@
         "https://claude.com/programs/startups"
       ],
       "config_references": [
-        "source.categories",
         "source.geography"
       ],
       "field_provenance": {
@@ -9570,8 +9567,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -9950,8 +9947,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -10012,13 +10009,6 @@
       "programme_end_at": null
     },
     "evidence": [
-      {
-        "url": "https://funduszeeuropejskie.gov.pl/nabory-wnioskow",
-        "authority": "PRIMARY",
-        "supports": [
-          "canonical_url"
-        ]
-      },
       {
         "url": "https://nowoczesnagospodarka.gov.pl/nabory-w-programie-feng",
         "authority": "PRIMARY",
@@ -10084,7 +10074,6 @@
         2
       ],
       "evidence_urls": [
-        "https://funduszeeuropejskie.gov.pl/nabory-wnioskow",
         "https://nowoczesnagospodarka.gov.pl/nabory-w-programie-feng"
       ],
       "config_references": [
@@ -10308,8 +10297,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -10875,8 +10864,397 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
+      "warning": false
+    }
+  },
+  {
+    "opportunity_id": "opp-6d799a0df53a27e204bd",
+    "title": "Platformy startowe dla nowych pomysłów — komponent IIa (nabór 03.11.2026–14.01.2027)",
+    "provider": {
+      "name": "Polska Agencja Rozwoju Przedsiębiorczości (PARP)",
+      "provider_type": "UNKNOWN"
+    },
+    "canonical_url": "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1",
+    "application_url": null,
+    "opportunity_types": [
+      "GRANT"
+    ],
+    "status": "UPCOMING_CONFIRMED",
+    "geography": {
+      "scope": "POLAND",
+      "eligible_countries": [
+        "PL"
+      ],
+      "excluded_countries": [],
+      "target_markets": [
+        "Polska Wschodnia"
+      ]
+    },
+    "benefits": [
+      {
+        "benefit_type": "CASH_GRANT",
+        "amount_min": 600000.0,
+        "amount_max": 600000.0,
+        "currency": "PLN",
+        "description": "Dofinansowanie do 600 000 PLN; maksymalny poziom dofinansowania 85% kosztów kwalifikowalnych."
+      }
+    ],
+    "eligibility": {
+      "applicant_types": [
+        "SME",
+        "COMPANY"
+      ],
+      "end_beneficiary_types": [],
+      "legal_forms": [],
+      "company_stages": [],
+      "funding_stages": [],
+      "company_age_min_months": null,
+      "company_age_max_months": null,
+      "external_funding_required": "UNKNOWN",
+      "mvp_required": "UNKNOWN",
+      "revenue_required": "UNKNOWN",
+      "for_profit_required": "UNKNOWN",
+      "sectors": [],
+      "requirements_text": [
+        "Mikro i małe spółki kapitałowe z siedzibą w makroregionie Polski Wschodniej.",
+        "Startup po zakończonym programie inkubacji w Platformie startowej, z pozytywną rekomendacją do rozwoju działalności."
+      ],
+      "exclusions_text": []
+    },
+    "economics": {
+      "application_fee": "UNKNOWN",
+      "equity_required": "UNKNOWN",
+      "own_contribution_required": "UNKNOWN"
+    },
+    "dates": {
+      "announced_at": null,
+      "application_open_at": "2026-11-03",
+      "application_deadline_at": "2027-01-14",
+      "programme_start_at": null,
+      "programme_end_at": null
+    },
+    "evidence": [
+      {
+        "url": "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1",
+        "authority": "OFFICIAL_PUBLIC",
+        "supports": [
+          "canonical_url"
+        ]
+      },
+      {
+        "url": "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1/",
+        "authority": "OFFICIAL_PUBLIC",
+        "supports": [
+          "application_deadline",
+          "application_open_at",
+          "eligibility",
+          "geography",
+          "lifecycle_status",
+          "provider_name",
+          "title"
+        ]
+      },
+      {
+        "url": "https://www.funduszeunijne.gov.pl/nabory/platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1/",
+        "authority": "OFFICIAL_PUBLIC",
+        "supports": [
+          "benefit_summary",
+          "benefit_types"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "PARTIALLY_VERIFIED",
+      "confidence": "HIGH",
+      "basis": "EVIDENCE_COVERAGE",
+      "last_checked_at": null,
+      "last_verified_at": null
+    },
+    "projection": {
+      "projector_version": "opportunity-projector-v0.2",
+      "canonical": {
+        "canonical_id": "opp-6d799a0df53a27e204bd",
+        "identity_key": "url:https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1",
+        "version": 1,
+        "status": "UPCOMING",
+        "created_at": "2026-10-28T09:23:32.397338+00:00",
+        "updated_at": "2026-10-28T09:23:32.397338+00:00",
+        "closed_at": null,
+        "promoter_version": "canonical-promoter-v0.1"
+      },
+      "aliases": {
+        "urls": [
+          "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1"
+        ],
+        "provider_titles": [
+          "polska agencja rozwoju przedsiębiorczości (parp)\u0000platformy startowe dla nowych pomysłów — komponent iia (nabór 03.11.2026–14.01.2027)"
+        ]
+      },
+      "unknown_fields": [
+        "application_url",
+        "company_stage",
+        "funding_stage",
+        "legal_forms",
+        "sector"
+      ],
+      "canonical_unknown_fields": [
+        "application_url",
+        "company_stage",
+        "funding_stage",
+        "legal_forms",
+        "sector"
+      ],
+      "history_versions": [
+        1
+      ],
+      "evidence_urls": [
+        "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1",
+        "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1/",
+        "https://www.funduszeunijne.gov.pl/nabory/platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1/"
+      ],
+      "config_references": [],
+      "field_provenance": {
+        "application_deadline": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia",
+                "quote": "14.01.2027"
+              }
+            ]
+          }
+        ],
+        "application_open_at": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia",
+                "quote": "03.11.2026"
+              }
+            ]
+          }
+        ],
+        "benefit_summary": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia_program",
+                "quote": "600 000,00 PLN"
+              }
+            ]
+          }
+        ],
+        "benefit_types": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia_program",
+                "quote": "600 000,00 PLN"
+              }
+            ]
+          }
+        ],
+        "canonical_url": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "profile.canonical_url",
+                "quote": "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1/"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia",
+                "quote": "Mikro i ma"
+              }
+            ]
+          }
+        ],
+        "geography": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia",
+                "quote": "Mikro i ma"
+              }
+            ]
+          }
+        ],
+        "lifecycle_status": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia",
+                "quote": "03.11.2026"
+              }
+            ]
+          }
+        ],
+        "provider_name": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia",
+                "quote": "Agencja Rozwoju"
+              }
+            ]
+          }
+        ],
+        "title": [
+          {
+            "candidate_id": "candidate-e75b46f2b93610a2a91a",
+            "decision_id": "decision-f11f3c4d31ad3d7d9201",
+            "source_id": "platformy_iia",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.397338+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.platformy_iia",
+                "quote": "Platformy startowe dla nowych pomys"
+              }
+            ]
+          }
+        ]
+      },
+      "provenance": [
+        {
+          "decision_id": "decision-f11f3c4d31ad3d7d9201",
+          "candidate_id": "candidate-e75b46f2b93610a2a91a",
+          "classification_id": "bootstrap-classification-bd0e77f39c49b8d0c516",
+          "event_id": "inventory-b13a7209569320c7b459",
+          "source_id": "platformy_iia",
+          "action": "CREATE",
+          "decision": "CREATE_CANONICAL",
+          "version": 1,
+          "candidate_sha256": "50e45e8d0ca2a0028566a31d5228262bc12a179876e31e3beacb46a6f903ccb1",
+          "applied_at": "2026-10-28T09:23:32.397338+00:00"
+        }
+      ],
+      "source_kind": "EVIDENCE"
+    },
+    "lifecycle": {
+      "status": "UPCOMING_CONFIRMED",
+      "basis": "AUTHORITATIVE_ANNOUNCEMENT",
+      "announced": true,
+      "base_status": "UPCOMING",
+      "opens_at": "2026-11-03",
+      "opens_at_precision": "DATE",
+      "closes_at": "2027-01-14",
+      "closes_at_precision": "DATE",
+      "announcement_url": "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-komponent-iia-wsparcie-rozwoju-dzialalnosci-gospodarczej-startupu-1/",
+      "content_kind": "OPPORTUNITY",
+      "is_signal": false,
+      "in_opportunity_feed": true,
+      "lifecycle_engine": "lifecycle-v2.3"
+    },
+    "timestamps": {
+      "discovered_at": "2026-10-28T09:23:32.397338+00:00",
+      "last_changed_at": "2026-10-28T09:23:32.397338+00:00",
+      "last_checked_at": null,
+      "last_verified_at": null,
+      "opens_at": "2026-11-03",
+      "closes_at": "2027-01-14"
+    },
+    "slug": "platformy-startowe-dla-nowych-pomysow-komponent-iia-nabor-03-b6c41701",
+    "enrichment": {
+      "version": "public-product-v2-enrichment-1.0"
+    },
+    "field_freshness": {
+      "version": "field-freshness-v2.3",
+      "recheck_cadence": "WEEKLY",
+      "last_verified_at": null,
+      "fields": {
+        "application_deadline": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "application_open_at": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "lifecycle_status": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "benefit_amount": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "applicant_eligibility": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        }
+      },
+      "counts": {
+        "UNKNOWN": 5
+      },
+      "worst_state": "UNKNOWN"
+    },
+    "summary_pl": null,
+    "summary_pl_source_hash": "273ebf9a546d4b750f7d2e0066a1d73d",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -11263,8 +11641,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -11529,8 +11907,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -11803,8 +12181,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -11939,7 +12317,6 @@
         "https://www.microsoft.com/en-us/startups"
       ],
       "config_references": [
-        "source.categories",
         "source.geography"
       ],
       "field_provenance": {
@@ -12257,8 +12634,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -12331,13 +12708,6 @@
           "provider_name",
           "title"
         ]
-      },
-      {
-        "url": "https://startup.ovhcloud.com/en-ie",
-        "authority": "PRIMARY",
-        "supports": [
-          "canonical_url"
-        ]
       }
     ],
     "verification": {
@@ -12396,11 +12766,9 @@
         5
       ],
       "evidence_urls": [
-        "https://startup.ovhcloud.com/en",
-        "https://startup.ovhcloud.com/en-ie"
+        "https://startup.ovhcloud.com/en"
       ],
       "config_references": [
-        "source.categories",
         "source.geography"
       ],
       "field_provenance": {
@@ -12712,8 +13080,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -12982,8 +13350,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -13140,7 +13508,6 @@
         "https://modal.com/startups"
       ],
       "config_references": [
-        "source.categories",
         "source.geography"
       ],
       "field_provenance": {
@@ -13635,44 +14002,62 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
   {
     "opportunity_id": "opp-8f1ee367cc0431c336ea",
-    "title": "Go2USA / Silicon Valley",
+    "title": "StartupsExchange by StartSmart CEE — Go2USA Silicon Valley",
     "provider": {
       "name": "StartSmart CEE",
       "provider_type": "UNKNOWN"
     },
     "canonical_url": "https://startsmartcee.org/",
-    "application_url": null,
+    "application_url": "https://app.dealum.com/#/company/application/new/186133/q2vmdpup33g4pwj858p5e1fg5ynajkw0",
     "opportunity_types": [
-      "OTHER"
+      "GRANT",
+      "MARKET_ACCESS",
+      "MENTORING",
+      "TRAINING"
     ],
     "status": "OPEN",
     "geography": {
-      "scope": "UNKNOWN",
-      "eligible_countries": [],
+      "scope": "POLAND",
+      "eligible_countries": [
+        "PL"
+      ],
       "excluded_countries": [],
       "target_markets": []
     },
     "benefits": [
       {
-        "benefit_type": "OTHER",
-        "amount_min": null,
-        "amount_max": null,
-        "currency": null,
-        "description": null
+        "benefit_type": "CASH_GRANT",
+        "amount_min": 20000.0,
+        "amount_max": 20000.0,
+        "currency": "PLN",
+        "description": "Grant gotówkowy (direct equity-free cash grant): do 20,000 PLN netto."
+      },
+      {
+        "benefit_type": "MENTORING",
+        "amount_min": 80000.0,
+        "amount_max": 80000.0,
+        "currency": "PLN",
+        "description": "Usługi akceleracyjne i pozostałe składniki pakietu: do 80,000 PLN netto; łączna wartość pakietu 100,000 PLN netto."
       }
     ],
     "eligibility": {
-      "applicant_types": [],
+      "applicant_types": [
+        "STARTUP",
+        "SME"
+      ],
       "end_beneficiary_types": [],
       "legal_forms": [],
-      "company_stages": [],
+      "company_stages": [
+        "FIRST_REVENUE",
+        "GROWTH"
+      ],
       "funding_stages": [],
       "company_age_min_months": null,
       "company_age_max_months": null,
@@ -13680,8 +14065,14 @@
       "mvp_required": "UNKNOWN",
       "revenue_required": "UNKNOWN",
       "for_profit_required": "UNKNOWN",
-      "sectors": [],
-      "requirements_text": [],
+      "sectors": [
+        "software",
+        "cybersecurity"
+      ],
+      "requirements_text": [
+        "Firma zarejestrowana w Polsce nie d?u?ej ni? 5 lat, mikro lub ma?a, z potwierdzon? sprzeda?? i traction.",
+        "Rozwi?zanie z obszaru software i cybersecurity."
+      ],
       "exclusions_text": []
     },
     "economics": {
@@ -13691,8 +14082,8 @@
     },
     "dates": {
       "announced_at": null,
-      "application_open_at": null,
-      "application_deadline_at": null,
+      "application_open_at": "2026-09-21",
+      "application_deadline_at": "2026-10-30",
       "programme_start_at": null,
       "programme_end_at": null
     },
@@ -13701,15 +14092,38 @@
         "url": "https://startsmartcee.org/",
         "authority": "PRIMARY",
         "supports": [
-          "canonical_url",
+          "application_url",
+          "canonical_url"
+        ]
+      },
+      {
+        "url": "https://startsmartcee.org/industries/silicon-valley/",
+        "authority": "PRIMARY",
+        "supports": [
+          "application_deadline",
+          "application_open_at",
+          "benefit_summary",
           "lifecycle_status",
+          "sector"
+        ]
+      },
+      {
+        "url": "https://startsmartcee.org/startups/the-startups-exchange-program/",
+        "authority": "PRIMARY",
+        "supports": [
+          "benefit_summary",
+          "benefit_types",
+          "company_stage",
+          "eligibility",
+          "geography",
+          "provider_name",
           "title"
         ]
       }
     ],
     "verification": {
       "status": "PARTIALLY_VERIFIED",
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "basis": "EVIDENCE_COVERAGE",
       "last_checked_at": null,
       "last_verified_at": null
@@ -13719,10 +14133,10 @@
       "canonical": {
         "canonical_id": "opp-8f1ee367cc0431c336ea",
         "identity_key": "url:https://startsmartcee.org/",
-        "version": 1,
+        "version": 2,
         "status": "OPEN",
         "created_at": "2026-09-30T12:41:39.474474+00:00",
-        "updated_at": "2026-09-30T12:41:39.474474+00:00",
+        "updated_at": "2026-10-28T09:23:32.406482+00:00",
         "closed_at": null,
         "promoter_version": "canonical-promoter-v0.1"
       },
@@ -13731,44 +14145,28 @@
           "https://startsmartcee.org/"
         ],
         "provider_titles": [
-          "startsmart cee\u0000go2usa / silicon valley"
+          "startsmart cee\u0000go2usa / silicon valley",
+          "startsmart cee\u0000startupsexchange by startsmart cee — go2usa silicon valley"
         ]
       },
       "unknown_fields": [
-        "application_deadline",
-        "application_open_at",
-        "application_url",
-        "benefit_summary",
-        "benefit_types",
-        "company_stage",
-        "eligibility",
         "funding_stage",
-        "geography",
-        "legal_forms",
-        "sector"
+        "legal_forms"
       ],
       "canonical_unknown_fields": [
-        "application_deadline",
-        "application_open_at",
-        "application_url",
-        "benefit_summary",
-        "benefit_types",
-        "company_stage",
-        "eligibility",
         "funding_stage",
-        "geography",
-        "legal_forms",
-        "sector"
+        "legal_forms"
       ],
       "history_versions": [
-        1
+        1,
+        2
       ],
       "evidence_urls": [
-        "https://startsmartcee.org/"
+        "https://startsmartcee.org/",
+        "https://startsmartcee.org/industries/silicon-valley/",
+        "https://startsmartcee.org/startups/the-startups-exchange-program/"
       ],
-      "config_references": [
-        "source.name"
-      ],
+      "config_references": [],
       "field_provenance": {
         "canonical_url": [
           {
@@ -13783,6 +14181,20 @@
                 "quote": "https://startsmartcee.org/"
               }
             ]
+          },
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "profile.canonical_url",
+                "quote": "https://startsmartcee.org/"
+              }
+            ],
+            "reasserted_unchanged": true
           }
         ],
         "lifecycle_status": [
@@ -13798,6 +14210,20 @@
                 "quote": "Recruitment for the Go2USA Silicon Valley cohort is open, apply now !"
               }
             ]
+          },
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_silicon_valley",
+                "quote": "Recruitment is now open until October 30th!"
+              }
+            ],
+            "reasserted_unchanged": true
           }
         ],
         "provider_name": [
@@ -13813,6 +14239,20 @@
                 "quote": "StartSmart CEE"
               }
             ]
+          },
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_exchange",
+                "quote": "StartSmart CEE"
+              }
+            ],
+            "reasserted_unchanged": true
           }
         ],
         "title": [
@@ -13826,6 +14266,158 @@
               {
                 "reference": "snapshot.current.window[0]",
                 "quote": "Go2USA / Silicon Valley"
+              }
+            ]
+          },
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_exchange",
+                "quote": "Startups Exchange is an international acceleration program"
+              }
+            ]
+          }
+        ],
+        "application_deadline": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_silicon_valley",
+                "quote": "30.10.2026"
+              }
+            ]
+          }
+        ],
+        "application_open_at": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_silicon_valley",
+                "quote": "Key Dates: 21.09.2026"
+              }
+            ]
+          }
+        ],
+        "application_url": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "profile.application_url",
+                "quote": "https://app.dealum.com/#/company/application/new/186133/q2vmdpup33g4pwj858p5e1fg5ynajkw0"
+              }
+            ]
+          }
+        ],
+        "benefit_summary": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_exchange",
+                "quote": "PLN 100,000 total support package"
+              },
+              {
+                "reference": "snapshot.startsmartcee_silicon_valley",
+                "quote": "PLN 20,000 net direct equity-free grant"
+              }
+            ]
+          }
+        ],
+        "benefit_types": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_exchange",
+                "quote": "PLN 20,000 net direct equity-free grant"
+              }
+            ]
+          }
+        ],
+        "company_stage": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_exchange",
+                "quote": "Growth stage startups program"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_exchange",
+                "quote": "Registered entities in Poland operating for up to 5 years"
+              }
+            ]
+          }
+        ],
+        "geography": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_exchange",
+                "quote": "Registered entities in Poland operating for up to 5 years"
+              }
+            ]
+          }
+        ],
+        "sector": [
+          {
+            "candidate_id": "candidate-448f51e78fbff5fc6034",
+            "decision_id": "decision-695b76a7bb3401ddd248",
+            "source_id": "startsmartcee_exchange",
+            "version": 2,
+            "applied_at": "2026-10-28T09:23:32.406482+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.startsmartcee_silicon_valley",
+                "quote": "software and cybersecurity"
               }
             ]
           }
@@ -13843,6 +14435,18 @@
           "version": 1,
           "candidate_sha256": "70beb1d072cecab30b08897bd52b813b11456f441e960362ec85c5160b4fe33f",
           "applied_at": "2026-09-30T12:41:39.474474+00:00"
+        },
+        {
+          "decision_id": "decision-695b76a7bb3401ddd248",
+          "candidate_id": "candidate-448f51e78fbff5fc6034",
+          "classification_id": "bootstrap-classification-7d4e4658e7852153b72a",
+          "event_id": "inventory-3e8f01d766d2693d2328",
+          "source_id": "startsmartcee_exchange",
+          "action": "CREATE",
+          "decision": "UPDATE_CANONICAL",
+          "version": 2,
+          "candidate_sha256": "89fe590b30efbe6e14ae4933adf04efb15b1293a6e7fecb4a06606560ed9d213",
+          "applied_at": "2026-10-28T09:23:32.406482+00:00"
         }
       ],
       "source_kind": "EVIDENCE"
@@ -13852,10 +14456,10 @@
       "basis": "AUTHORITATIVE_PAGE",
       "announced": false,
       "base_status": "OPEN",
-      "opens_at": null,
-      "opens_at_precision": "NONE",
-      "closes_at": null,
-      "closes_at_precision": "NONE",
+      "opens_at": "2026-09-21",
+      "opens_at_precision": "DATE",
+      "closes_at": "2026-10-30",
+      "closes_at_precision": "DATE",
       "content_kind": "OPPORTUNITY",
       "is_signal": false,
       "in_opportunity_feed": true,
@@ -13863,19 +14467,19 @@
     },
     "timestamps": {
       "discovered_at": "2026-09-30T12:41:39.474474+00:00",
-      "last_changed_at": "2026-09-30T12:41:39.474474+00:00",
+      "last_changed_at": "2026-10-28T09:23:32.406482+00:00",
       "last_checked_at": null,
       "last_verified_at": null,
-      "opens_at": null,
-      "closes_at": null
+      "opens_at": "2026-09-21",
+      "closes_at": "2026-10-30"
     },
-    "slug": "go2usa-silicon-valley-bdd3a76f",
+    "slug": "startupsexchange-by-startsmart-cee-go2usa-silicon-valley-bdd3a76f",
     "enrichment": {
       "version": "public-product-v2-enrichment-1.0"
     },
     "field_freshness": {
       "version": "field-freshness-v2.3",
-      "recheck_cadence": "WEEKLY",
+      "recheck_cadence": "DAILY",
       "last_verified_at": null,
       "fields": {
         "application_deadline": {
@@ -13909,15 +14513,15 @@
       },
       "worst_state": "UNKNOWN"
     },
-    "summary_pl": "Program Go2USA / Silicon Valley realizowany jest przez StartSmart CEE. W przekazanych danych nie podano szczegółów oferty, korzyści ani warunków kwalifikacji.",
-    "summary_pl_source_hash": "049bad94e3272636b5762a52985c774e",
+    "summary_pl": null,
+    "summary_pl_source_hash": "697b4ab9d55b288bb65f4c68eec241c6",
     "freshness": {
       "version": "freshness-v1",
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -14409,8 +15013,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -14851,8 +15455,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -15313,8 +15917,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -15850,8 +16454,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -16010,7 +16614,6 @@
         "https://www.funduszeunijne.gov.pl/nabory/11-platformy-startowe-dla-nowych-pomyslow-2"
       ],
       "config_references": [
-        "source.categories",
         "source.geography"
       ],
       "field_provenance": {
@@ -17573,8 +18176,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -17999,9 +18602,9 @@
       "version": "freshness-v1",
       "state": "AGING",
       "rule": "age>3d",
-      "age_days": 4,
+      "age_days": 5,
       "last_checked_at": "2026-10-22T16:55:21.146807+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -18788,9 +19391,9 @@
       "version": "freshness-v1",
       "state": "AGING",
       "rule": "age>3d",
-      "age_days": 4,
+      "age_days": 5,
       "last_checked_at": "2026-10-22T16:55:21.146807+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -19230,8 +19833,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -19700,8 +20303,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -19964,8 +20567,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -20444,8 +21047,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -20885,8 +21488,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -21362,8 +21965,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -21502,7 +22105,6 @@
         "https://www.nvidia.com/en-us/startups"
       ],
       "config_references": [
-        "source.categories",
         "source.geography"
       ],
       "field_provenance": {
@@ -21860,8 +22462,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -22288,8 +22890,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -22666,8 +23268,401 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
+      "warning": false
+    }
+  },
+  {
+    "opportunity_id": "opp-c3a8d830469499c25b85",
+    "title": "IPK Pitch Day 2026 — trzecia edycja",
+    "provider": {
+      "name": "Instytut Przemysłów Kreatywnych",
+      "provider_type": "UNKNOWN"
+    },
+    "canonical_url": "https://ipk.gov.pl/aktualnosci/rusza-nabor-na-pitch-day",
+    "application_url": "https://forms.gle/gBVoYawUzEiHnSca8",
+    "opportunity_types": [
+      "INVESTOR_ACCESS",
+      "MARKET_ACCESS",
+      "MENTORING"
+    ],
+    "status": "CLOSED",
+    "geography": {
+      "scope": "POLAND",
+      "eligible_countries": [
+        "PL"
+      ],
+      "excluded_countries": [],
+      "target_markets": []
+    },
+    "benefits": [
+      {
+        "benefit_type": "INVESTOR_ACCESS",
+        "amount_min": null,
+        "amount_max": null,
+        "currency": null,
+        "description": "Udział w Pitch Day: prezentacja przed funduszami VC i inwestorami, opinia ekspertów branżowych oraz networking; brak bezpośredniego grantu."
+      }
+    ],
+    "eligibility": {
+      "applicant_types": [
+        "STARTUP"
+      ],
+      "end_beneficiary_types": [],
+      "legal_forms": [],
+      "company_stages": [],
+      "funding_stages": [],
+      "company_age_min_months": null,
+      "company_age_max_months": null,
+      "external_funding_required": "UNKNOWN",
+      "mvp_required": "UNKNOWN",
+      "revenue_required": "UNKNOWN",
+      "for_profit_required": "UNKNOWN",
+      "sectors": [
+        "creative tech"
+      ],
+      "requirements_text": [
+        "Innowacyjne startupy z pogranicza technologii i sektora kreatywnego.",
+        "Zgłoszenia do 9 października 2026; wybór ośmiu startupów do finału 3 listopada 2026."
+      ],
+      "exclusions_text": []
+    },
+    "economics": {
+      "application_fee": "UNKNOWN",
+      "equity_required": "UNKNOWN",
+      "own_contribution_required": "UNKNOWN"
+    },
+    "dates": {
+      "announced_at": null,
+      "application_open_at": null,
+      "application_deadline_at": "2026-10-09",
+      "programme_start_at": null,
+      "programme_end_at": null
+    },
+    "evidence": [
+      {
+        "url": "https://ipk.gov.pl/aktualnosci/rusza-nabor-na-pitch-day",
+        "authority": "PRIMARY",
+        "supports": [
+          "application_deadline",
+          "application_url",
+          "benefit_summary",
+          "benefit_types",
+          "canonical_url",
+          "eligibility",
+          "geography",
+          "lifecycle_status",
+          "provider_name",
+          "sector",
+          "title"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "PARTIALLY_VERIFIED",
+      "confidence": "HIGH",
+      "basis": "EVIDENCE_COVERAGE",
+      "last_checked_at": null,
+      "last_verified_at": null
+    },
+    "projection": {
+      "projector_version": "opportunity-projector-v0.2",
+      "canonical": {
+        "canonical_id": "opp-c3a8d830469499c25b85",
+        "identity_key": "url:https://ipk.gov.pl/aktualnosci/rusza-nabor-na-pitch-day",
+        "version": 1,
+        "status": "CLOSED",
+        "created_at": "2026-10-28T09:23:32.368986+00:00",
+        "updated_at": "2026-10-28T09:23:32.368986+00:00",
+        "closed_at": null,
+        "promoter_version": "canonical-promoter-v0.1"
+      },
+      "aliases": {
+        "urls": [
+          "https://ipk.gov.pl/aktualnosci/rusza-nabor-na-pitch-day"
+        ],
+        "provider_titles": [
+          "instytut przemysłów kreatywnych\u0000ipk pitch day 2026 — trzecia edycja"
+        ]
+      },
+      "unknown_fields": [
+        "application_open_at",
+        "company_stage",
+        "funding_stage",
+        "legal_forms"
+      ],
+      "canonical_unknown_fields": [
+        "application_open_at",
+        "company_stage",
+        "funding_stage",
+        "legal_forms"
+      ],
+      "history_versions": [
+        1
+      ],
+      "evidence_urls": [
+        "https://ipk.gov.pl/aktualnosci/rusza-nabor-na-pitch-day"
+      ],
+      "config_references": [],
+      "field_provenance": {
+        "application_deadline": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "9 pa"
+              }
+            ]
+          }
+        ],
+        "application_url": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "profile.application_url",
+                "quote": "https://forms.gle/gBVoYawUzEiHnSca8"
+              }
+            ]
+          }
+        ],
+        "benefit_summary": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "funduszy VC"
+              }
+            ]
+          }
+        ],
+        "benefit_types": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "funduszy VC"
+              }
+            ]
+          }
+        ],
+        "canonical_url": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "profile.canonical_url",
+                "quote": "https://ipk.gov.pl/aktualnosci/rusza-nabor-na-pitch-day"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "3 listopada 2026"
+              },
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "start-upy"
+              }
+            ]
+          }
+        ],
+        "geography": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "start-upy"
+              }
+            ]
+          }
+        ],
+        "lifecycle_status": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "9 pa"
+              }
+            ]
+          }
+        ],
+        "provider_name": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "Instytut Przemys"
+              }
+            ]
+          }
+        ],
+        "sector": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "sektora kreatywnego"
+              }
+            ]
+          }
+        ],
+        "title": [
+          {
+            "candidate_id": "candidate-a6ae18f24223d6b964cd",
+            "decision_id": "decision-9faf6ede03f9dfe39763",
+            "source_id": "ipk_pitch_day",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.368986+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.ipk_pitch_day",
+                "quote": "Pitch Day"
+              }
+            ]
+          }
+        ]
+      },
+      "provenance": [
+        {
+          "decision_id": "decision-9faf6ede03f9dfe39763",
+          "candidate_id": "candidate-a6ae18f24223d6b964cd",
+          "classification_id": "bootstrap-classification-37a693ff06daf5032b47",
+          "event_id": "inventory-d88fa2f92bb02233fbaa",
+          "source_id": "ipk_pitch_day",
+          "action": "CREATE",
+          "decision": "CREATE_CANONICAL",
+          "version": 1,
+          "candidate_sha256": "b3d0f98eab2110d146692bfe58113394b2edd509bbf5ccb83bec73766b2f14a7",
+          "applied_at": "2026-10-28T09:23:32.368986+00:00"
+        }
+      ],
+      "source_kind": "EVIDENCE"
+    },
+    "lifecycle": {
+      "status": "CLOSED",
+      "basis": "AUTHORITATIVE_PAGE",
+      "announced": false,
+      "base_status": "CLOSED",
+      "opens_at": null,
+      "opens_at_precision": "NONE",
+      "closes_at": "2026-10-09",
+      "closes_at_precision": "DATE",
+      "content_kind": "OPPORTUNITY",
+      "is_signal": false,
+      "in_opportunity_feed": true,
+      "lifecycle_engine": "lifecycle-v2.3"
+    },
+    "timestamps": {
+      "discovered_at": "2026-10-28T09:23:32.368986+00:00",
+      "last_changed_at": "2026-10-28T09:23:32.368986+00:00",
+      "last_checked_at": null,
+      "last_verified_at": null,
+      "opens_at": null,
+      "closes_at": "2026-10-09"
+    },
+    "slug": "ipk-pitch-day-2026-trzecia-edycja-0fc3bb63",
+    "enrichment": {
+      "version": "public-product-v2-enrichment-1.0"
+    },
+    "field_freshness": {
+      "version": "field-freshness-v2.3",
+      "recheck_cadence": "WEEKLY",
+      "last_verified_at": null,
+      "fields": {
+        "application_deadline": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "application_open_at": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "lifecycle_status": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "benefit_amount": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "applicant_eligibility": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        }
+      },
+      "counts": {
+        "UNKNOWN": 5
+      },
+      "worst_state": "UNKNOWN"
+    },
+    "summary_pl": null,
+    "summary_pl_source_hash": "a907ea588a044a2bcf158e4d3f624dd8",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -23276,8 +24271,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -23662,8 +24657,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -24061,8 +25056,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -24417,8 +25412,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -25028,8 +26023,423 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
+      "warning": false
+    }
+  },
+  {
+    "opportunity_id": "opp-d45d072d1354f100e676",
+    "title": "Spark 4.0 — edycja Rethink",
+    "provider": {
+      "name": "Łódzka Specjalna Strefa Ekonomiczna",
+      "provider_type": "UNKNOWN"
+    },
+    "canonical_url": "https://startupspark.sse.lodz.pl/spark-4-0",
+    "application_url": "https://www.f6s.com/spark-4.0-edycja-rethink/apply",
+    "opportunity_types": [
+      "CORPORATE_PILOT",
+      "GRANT",
+      "MARKET_ACCESS",
+      "MENTORING",
+      "OTHER",
+      "TRAINING"
+    ],
+    "status": "OPEN",
+    "geography": {
+      "scope": "POLAND",
+      "eligible_countries": [
+        "PL"
+      ],
+      "excluded_countries": [],
+      "target_markets": []
+    },
+    "benefits": [
+      {
+        "benefit_type": "CASH_GRANT",
+        "amount_min": 350000.0,
+        "amount_max": 350000.0,
+        "currency": "PLN",
+        "description": "Grant do 350 000 zł na rozwój i testowanie produktu lub usługi we współpracy z Odbiorcą Technologii; program obejmuje mentoring, warsztaty, matchmaking, pilotaże i dostęp do potencjalnych klientów."
+      }
+    ],
+    "eligibility": {
+      "applicant_types": [
+        "STARTUP",
+        "SME"
+      ],
+      "end_beneficiary_types": [],
+      "legal_forms": [],
+      "company_stages": [],
+      "funding_stages": [],
+      "company_age_min_months": null,
+      "company_age_max_months": null,
+      "external_funding_required": "UNKNOWN",
+      "mvp_required": "UNKNOWN",
+      "revenue_required": "UNKNOWN",
+      "for_profit_required": "UNKNOWN",
+      "sectors": [
+        "Gospodarka Obiegu Zamkniętego (GOZ)"
+      ],
+      "requirements_text": [
+        "Spółki kapitałowe (mikro lub małe) do 5 lat działalności na terytorium RP.",
+        "Innowacyjne rozwiązanie z obszaru gospodarki obiegu zamkniętego (GOZ), m.in. recykling, ekoprojektowanie, LCA, cyrkularne modele biznesowe.",
+        "Wymagany minimalny poziom gotowości technologicznej V."
+      ],
+      "exclusions_text": []
+    },
+    "economics": {
+      "application_fee": "UNKNOWN",
+      "equity_required": "UNKNOWN",
+      "own_contribution_required": "UNKNOWN"
+    },
+    "dates": {
+      "announced_at": null,
+      "application_open_at": "2026-08-14",
+      "application_deadline_at": "2026-10-31",
+      "programme_start_at": null,
+      "programme_end_at": null
+    },
+    "evidence": [
+      {
+        "url": "https://startupspark.sse.lodz.pl/spark-4-0",
+        "authority": "PRIMARY",
+        "supports": [
+          "application_url",
+          "canonical_url"
+        ]
+      },
+      {
+        "url": "https://startupspark.sse.lodz.pl/spark-4-0/",
+        "authority": "PRIMARY",
+        "supports": [
+          "application_deadline",
+          "application_open_at",
+          "benefit_summary",
+          "benefit_types",
+          "eligibility",
+          "geography",
+          "lifecycle_status",
+          "provider_name",
+          "sector",
+          "title"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "PARTIALLY_VERIFIED",
+      "confidence": "HIGH",
+      "basis": "EVIDENCE_COVERAGE",
+      "last_checked_at": null,
+      "last_verified_at": null
+    },
+    "projection": {
+      "projector_version": "opportunity-projector-v0.2",
+      "canonical": {
+        "canonical_id": "opp-d45d072d1354f100e676",
+        "identity_key": "url:https://startupspark.sse.lodz.pl/spark-4-0",
+        "version": 1,
+        "status": "OPEN",
+        "created_at": "2026-10-28T09:23:32.402941+00:00",
+        "updated_at": "2026-10-28T09:23:32.402941+00:00",
+        "closed_at": null,
+        "promoter_version": "canonical-promoter-v0.1"
+      },
+      "aliases": {
+        "urls": [
+          "https://startupspark.sse.lodz.pl/spark-4-0"
+        ],
+        "provider_titles": [
+          "łódzka specjalna strefa ekonomiczna\u0000spark 4.0 — edycja rethink"
+        ]
+      },
+      "unknown_fields": [
+        "company_stage",
+        "funding_stage",
+        "legal_forms"
+      ],
+      "canonical_unknown_fields": [
+        "company_stage",
+        "funding_stage",
+        "legal_forms"
+      ],
+      "history_versions": [
+        1
+      ],
+      "evidence_urls": [
+        "https://startupspark.sse.lodz.pl/spark-4-0",
+        "https://startupspark.sse.lodz.pl/spark-4-0/"
+      ],
+      "config_references": [],
+      "field_provenance": {
+        "application_deadline": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "14.08-31.10.2026"
+              }
+            ]
+          }
+        ],
+        "application_open_at": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "14.08-31.10.2026"
+              }
+            ]
+          }
+        ],
+        "application_url": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "profile.application_url",
+                "quote": "https://www.f6s.com/spark-4.0-edycja-rethink/apply"
+              }
+            ]
+          }
+        ],
+        "benefit_summary": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "grant do 350 000"
+              }
+            ]
+          }
+        ],
+        "benefit_types": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "mentoring, warsztaty, matchmaking"
+              }
+            ]
+          }
+        ],
+        "canonical_url": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "profile.canonical_url",
+                "quote": "https://startupspark.sse.lodz.pl/spark-4-0/"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "do 5 lat dzia"
+              }
+            ]
+          }
+        ],
+        "geography": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "do 5 lat dzia"
+              }
+            ]
+          }
+        ],
+        "lifecycle_status": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "14.08-31.10.2026"
+              }
+            ]
+          }
+        ],
+        "provider_name": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "Specjalna Strefa Ekonomiczna"
+              }
+            ]
+          }
+        ],
+        "sector": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "gospodarki obiegu zamkni"
+              }
+            ]
+          }
+        ],
+        "title": [
+          {
+            "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+            "decision_id": "decision-c99bc95254305dfeb21e",
+            "source_id": "spark4_rethink",
+            "version": 1,
+            "applied_at": "2026-10-28T09:23:32.402941+00:00",
+            "evidence": [
+              {
+                "reference": "snapshot.spark4_rethink",
+                "quote": "Spark 4.0 / edycja rethink"
+              }
+            ]
+          }
+        ]
+      },
+      "provenance": [
+        {
+          "decision_id": "decision-c99bc95254305dfeb21e",
+          "candidate_id": "candidate-a0383a7e3330d44d3d2d",
+          "classification_id": "bootstrap-classification-afea223bc268b299b985",
+          "event_id": "inventory-b306fe79d2938da0a019",
+          "source_id": "spark4_rethink",
+          "action": "CREATE",
+          "decision": "CREATE_CANONICAL",
+          "version": 1,
+          "candidate_sha256": "93dee0bacf7cc7905205dee36ba9d93784061394d7888dbce98a41480448e7ac",
+          "applied_at": "2026-10-28T09:23:32.402941+00:00"
+        }
+      ],
+      "source_kind": "EVIDENCE"
+    },
+    "lifecycle": {
+      "status": "OPEN",
+      "basis": "AUTHORITATIVE_PAGE",
+      "announced": false,
+      "base_status": "OPEN",
+      "opens_at": "2026-08-14",
+      "opens_at_precision": "DATE",
+      "closes_at": "2026-10-31",
+      "closes_at_precision": "DATE",
+      "content_kind": "OPPORTUNITY",
+      "is_signal": false,
+      "in_opportunity_feed": true,
+      "lifecycle_engine": "lifecycle-v2.3"
+    },
+    "timestamps": {
+      "discovered_at": "2026-10-28T09:23:32.402941+00:00",
+      "last_changed_at": "2026-10-28T09:23:32.402941+00:00",
+      "last_checked_at": null,
+      "last_verified_at": null,
+      "opens_at": "2026-08-14",
+      "closes_at": "2026-10-31"
+    },
+    "slug": "spark-4-0-edycja-rethink-eae81ae9",
+    "enrichment": {
+      "version": "public-product-v2-enrichment-1.0"
+    },
+    "field_freshness": {
+      "version": "field-freshness-v2.3",
+      "recheck_cadence": "DAILY",
+      "last_verified_at": null,
+      "fields": {
+        "application_deadline": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "application_open_at": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "lifecycle_status": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "benefit_amount": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        },
+        "applicant_eligibility": {
+          "state": "UNKNOWN",
+          "rule": "no last_verified_at for this field",
+          "retrieval_failed": false
+        }
+      },
+      "counts": {
+        "UNKNOWN": 5
+      },
+      "worst_state": "UNKNOWN"
+    },
+    "summary_pl": null,
+    "summary_pl_source_hash": "cffad9a645e0d6081d979d3fc4137048",
+    "freshness": {
+      "version": "freshness-v1",
+      "state": "FRESH",
+      "rule": "age<=3d",
+      "age_days": 0,
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -25442,8 +26852,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -25601,7 +27011,6 @@
         "https://startupwiseguys.com/"
       ],
       "config_references": [
-        "source.geography",
         "source.name"
       ],
       "field_provenance": {
@@ -26302,8 +27711,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -26793,8 +28202,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   },
@@ -27294,9 +28703,9 @@
       "version": "freshness-v1",
       "state": "STALE",
       "rule": "age>14d",
-      "age_days": 21,
+      "age_days": 22,
       "last_checked_at": "2026-10-05T16:06:18.033770+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": true
     }
   },
@@ -27783,8 +29192,8 @@
       "state": "FRESH",
       "rule": "age<=3d",
       "age_days": 0,
-      "last_checked_at": "2026-10-26T19:39:25.639153+00:00",
-      "as_of": "2026-10-26T19:39:25.801341+00:00",
+      "last_checked_at": "2026-10-28T09:27:27.600039+00:00",
+      "as_of": "2026-10-28T09:27:27.769295+00:00",
       "warning": false
     }
   }
