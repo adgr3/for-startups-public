@@ -1,10 +1,10 @@
 {
-  "digest": "9db444598c16ad8ebda72d8dfb1cc9d0c68b8d78af2e82e2afafc3a57b4ef323",
-  "generated_at": "2026-10-29T19:08:06.478674+00:00",
+  "digest": "0d94f941e33c434d7006c2f4807fe1655f3cf3eeec28a505b0b7e008e132bcaf",
+  "generated_at": "2026-11-01T18:36:13.723514+00:00",
   "item_count": 60,
   "status_counts": {
-    "OPEN": 22,
-    "CLOSED": 11,
+    "OPEN": 20,
+    "CLOSED": 13,
     "ROLLING": 18,
     "UNKNOWN": 7,
     "UPCOMING_CONFIRMED": 2
